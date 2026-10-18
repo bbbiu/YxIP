@@ -3,12 +3,12 @@ ipv6: false
 unified-delay: true
 tcp-concurrent: true
 proxies:
-- name: CF_182ms-01
+- name: JP_58ms-01
   type: vless
-  server: 104.17.146.84
+  server: 157.254.198.27
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -20,12 +20,63 @@ proxies:
       Host: edt2.814600117.ccwu.cc
     max-early-data: 2560
     early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_188ms-02
+- name: KR_67ms-02
+  type: vless
+  server: 43.108.46.150
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: US_154ms-03
+  type: vless
+  server: 69.40.207.130
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: US_168ms-04
+  type: vless
+  server: 45.59.128.171
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: CA_174ms-05
   type: vless
   server: 104.17.156.11
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -37,12 +88,29 @@ proxies:
       Host: edt2.814600117.ccwu.cc
     max-early-data: 2560
     early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_190ms-03
+- name: BE_177ms-06
+  type: vless
+  server: 35.241.172.224
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: CA_179ms-07
   type: vless
   server: 104.17.150.71
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -54,29 +122,12 @@ proxies:
       Host: edt2.814600117.ccwu.cc
     max-early-data: 2560
     early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_207ms-04
-  type: vless
-  server: 104.19.110.1
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_208ms-05
+- name: CA_180ms-08
   type: vless
   server: 104.17.140.2
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -88,131 +139,12 @@ proxies:
       Host: edt2.814600117.ccwu.cc
     max-early-data: 2560
     early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_213ms-06
-  type: vless
-  server: 104.19.140.2
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_213ms-07
-  type: vless
-  server: 104.17.31.200
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_219ms-08
-  type: vless
-  server: 104.17.51.11
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_220ms-09
-  type: vless
-  server: 104.18.2.2
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_222ms-10
-  type: vless
-  server: 104.17.100.50
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_223ms-11
-  type: vless
-  server: 172.67.110.1
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_224ms-12
-  type: vless
-  server: 104.17.50.1
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_231ms-13
+- name: CA_184ms-09
   type: vless
   server: 104.17.140.1
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -224,12 +156,12 @@ proxies:
       Host: edt2.814600117.ccwu.cc
     max-early-data: 2560
     early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_233ms-14
+- name: US_184ms-10
   type: vless
-  server: 104.18.50.1
+  server: 45.77.190.163
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -241,12 +173,12 @@ proxies:
       Host: edt2.814600117.ccwu.cc
     max-early-data: 2560
     early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_252ms-15
+- name: RS_188ms-11
   type: vless
-  server: 172.67.140.1
+  server: 38.180.100.80
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -258,12 +190,12 @@ proxies:
       Host: edt2.814600117.ccwu.cc
     max-early-data: 2560
     early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_255ms-16
+- name: FR_196ms-12
   type: vless
-  server: 104.19.80.1
+  server: 62.60.148.60
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -275,12 +207,12 @@ proxies:
       Host: edt2.814600117.ccwu.cc
     max-early-data: 2560
     early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_269ms-17
+- name: CZ_199ms-13
   type: vless
-  server: 104.27.21.118
+  server: 62.233.57.80
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -292,12 +224,12 @@ proxies:
       Host: edt2.814600117.ccwu.cc
     max-early-data: 2560
     early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_273ms-18
+- name: CH_204ms-14
   type: vless
-  server: 172.67.205.1
+  server: 45.90.59.18
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -309,12 +241,12 @@ proxies:
       Host: edt2.814600117.ccwu.cc
     max-early-data: 2560
     early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_276ms-19
+- name: GB_204ms-15
   type: vless
-  server: 172.67.80.1
+  server: 57.128.183.35
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -326,12 +258,80 @@ proxies:
       Host: edt2.814600117.ccwu.cc
     max-early-data: 2560
     early-data-header-name: Sec-WebSocket-Protocol
-- name: CF_282ms-20
+- name: SI_206ms-16
   type: vless
-  server: 104.16.2.2
+  server: 67.221.249.24
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: BG_208ms-17
+  type: vless
+  server: 185.141.61.113
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: CZ_208ms-18
+  type: vless
+  server: 46.28.70.117
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: AT_209ms-19
+  type: vless
+  server: 151.236.8.98
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: FR_210ms-20
+  type: vless
+  server: 62.60.156.24
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
   tls: true
   client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
@@ -347,26 +347,26 @@ proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - CF_182ms-01
-  - CF_188ms-02
-  - CF_190ms-03
-  - CF_207ms-04
-  - CF_208ms-05
-  - CF_213ms-06
-  - CF_213ms-07
-  - CF_219ms-08
-  - CF_220ms-09
-  - CF_222ms-10
-  - CF_223ms-11
-  - CF_224ms-12
-  - CF_231ms-13
-  - CF_233ms-14
-  - CF_252ms-15
-  - CF_255ms-16
-  - CF_269ms-17
-  - CF_273ms-18
-  - CF_276ms-19
-  - CF_282ms-20
+  - JP_58ms-01
+  - KR_67ms-02
+  - US_154ms-03
+  - US_168ms-04
+  - CA_174ms-05
+  - BE_177ms-06
+  - CA_179ms-07
+  - CA_180ms-08
+  - CA_184ms-09
+  - US_184ms-10
+  - RS_188ms-11
+  - FR_196ms-12
+  - CZ_199ms-13
+  - CH_204ms-14
+  - GB_204ms-15
+  - SI_206ms-16
+  - BG_208ms-17
+  - CZ_208ms-18
+  - AT_209ms-19
+  - FR_210ms-20
   - ♻️ 自动选择
 - name: ♻️ 自动选择
   type: url-test
@@ -374,26 +374,26 @@ proxy-groups:
   interval: 600
   tolerance: 80
   proxies:
-  - CF_182ms-01
-  - CF_188ms-02
-  - CF_190ms-03
-  - CF_207ms-04
-  - CF_208ms-05
-  - CF_213ms-06
-  - CF_213ms-07
-  - CF_219ms-08
-  - CF_220ms-09
-  - CF_222ms-10
-  - CF_223ms-11
-  - CF_224ms-12
-  - CF_231ms-13
-  - CF_233ms-14
-  - CF_252ms-15
-  - CF_255ms-16
-  - CF_269ms-17
-  - CF_273ms-18
-  - CF_276ms-19
-  - CF_282ms-20
+  - JP_58ms-01
+  - KR_67ms-02
+  - US_154ms-03
+  - US_168ms-04
+  - CA_174ms-05
+  - BE_177ms-06
+  - CA_179ms-07
+  - CA_180ms-08
+  - CA_184ms-09
+  - US_184ms-10
+  - RS_188ms-11
+  - FR_196ms-12
+  - CZ_199ms-13
+  - CH_204ms-14
+  - GB_204ms-15
+  - SI_206ms-16
+  - BG_208ms-17
+  - CZ_208ms-18
+  - AT_209ms-19
+  - FR_210ms-20
 rules:
 - AND,((NETWORK,udp),(DST-PORT,443)),REJECT
 - DOMAIN-SUFFIX,openai.com,🚀 节点选择
