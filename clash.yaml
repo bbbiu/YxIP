@@ -43,37 +43,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: FR_749ms_1.1M-02
-  type: vless
-  server: 51.210.159.218
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: AT_811ms_1.4M-03
-  type: vless
-  server: 37.235.56.86
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: US_807ms_1.3M-04
+- name: US_807ms_1.3M-02
   type: vless
   server: 45.77.190.163
   port: 443
@@ -88,7 +58,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: US_847ms_1.5M-05
+- name: US_847ms_1.5M-03
   type: vless
   server: 69.40.207.130
   port: 443
@@ -103,82 +73,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: IE_845ms_1.4M-06
-  type: vless
-  server: 45.141.234.138
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: IT_871ms_1.2M-07
-  type: vless
-  server: 5.249.148.85
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: CZ_863ms_1.1M-08
-  type: vless
-  server: 62.233.57.80
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: CZ_875ms_1.1M-09
-  type: vless
-  server: 46.28.70.117
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: DK_854ms_1.0M-10
-  type: vless
-  server: 45.148.31.204
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: CF_791ms_1.4M-11
+- name: CF_791ms_1.4M-04
   type: vless
   server: 198.41.213.65
   port: 443
@@ -193,7 +88,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_821ms_1.4M-12
+- name: CF_821ms_1.4M-05
   type: vless
   server: 162.159.82.86
   port: 443
@@ -208,7 +103,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_844ms_1.4M-13
+- name: CF_844ms_1.4M-06
   type: vless
   server: 108.162.198.4
   port: 443
@@ -223,7 +118,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_793ms_1.1M-14
+- name: CF_793ms_1.1M-07
   type: vless
   server: 108.162.198.129
   port: 443
@@ -238,7 +133,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_821ms_1.3M-15
+- name: CF_821ms_1.3M-08
   type: vless
   server: 108.162.198.94
   port: 443
@@ -253,7 +148,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_856ms_1.3M-16
+- name: CF_856ms_1.3M-09
   type: vless
   server: 198.41.213.73
   port: 443
@@ -268,7 +163,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_868ms_1.4M-17
+- name: CF_868ms_1.4M-10
   type: vless
   server: 108.162.198.225
   port: 443
@@ -283,7 +178,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_892ms_1.4M-18
+- name: CF_892ms_1.4M-11
   type: vless
   server: 104.17.150.225
   port: 443
@@ -298,7 +193,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_920ms_1.4M-19
+- name: CF_920ms_1.4M-12
   type: vless
   server: 104.17.154.97
   port: 443
@@ -313,7 +208,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_892ms_1.2M-20
+- name: CF_892ms_1.2M-13
   type: vless
   server: 103.31.4.137
   port: 443
@@ -332,155 +227,71 @@ proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - ⚡ CF 优选
-  - ♻️ 自动测速
-  - 🎯 全球直连
+  - ♻️ 自动选择
   - JP_643ms_1.9M-01
-  - FR_749ms_1.1M-02
-  - AT_811ms_1.4M-03
-  - US_807ms_1.3M-04
-  - US_847ms_1.5M-05
-  - IE_845ms_1.4M-06
-  - IT_871ms_1.2M-07
-  - CZ_863ms_1.1M-08
-  - CZ_875ms_1.1M-09
-  - DK_854ms_1.0M-10
-  - CF_791ms_1.4M-11
-  - CF_821ms_1.4M-12
-  - CF_844ms_1.4M-13
-  - CF_793ms_1.1M-14
-  - CF_821ms_1.3M-15
-  - CF_856ms_1.3M-16
-  - CF_868ms_1.4M-17
-  - CF_892ms_1.4M-18
-  - CF_920ms_1.4M-19
-  - CF_892ms_1.2M-20
-- name: ⚡ CF 优选
-  type: select
-  proxies:
-  - JP_643ms_1.9M-01
-  - FR_749ms_1.1M-02
-  - AT_811ms_1.4M-03
-  - US_807ms_1.3M-04
-  - US_847ms_1.5M-05
-  - IE_845ms_1.4M-06
-  - IT_871ms_1.2M-07
-  - CZ_863ms_1.1M-08
-  - CZ_875ms_1.1M-09
-  - DK_854ms_1.0M-10
-- name: ♻️ 自动测速
+  - US_807ms_1.3M-02
+  - US_847ms_1.5M-03
+  - CF_791ms_1.4M-04
+  - CF_821ms_1.4M-05
+  - CF_844ms_1.4M-06
+  - CF_793ms_1.1M-07
+  - CF_821ms_1.3M-08
+  - CF_856ms_1.3M-09
+  - CF_868ms_1.4M-10
+  - CF_892ms_1.4M-11
+  - CF_920ms_1.4M-12
+  - CF_892ms_1.2M-13
+- name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 600
   tolerance: 80
   proxies:
   - JP_643ms_1.9M-01
-  - FR_749ms_1.1M-02
-  - AT_811ms_1.4M-03
-  - US_807ms_1.3M-04
-  - US_847ms_1.5M-05
-  - IE_845ms_1.4M-06
-  - IT_871ms_1.2M-07
-  - CZ_863ms_1.1M-08
-  - CZ_875ms_1.1M-09
-  - DK_854ms_1.0M-10
-  - CF_791ms_1.4M-11
-  - CF_821ms_1.4M-12
-  - CF_844ms_1.4M-13
-  - CF_793ms_1.1M-14
-  - CF_821ms_1.3M-15
-  - CF_856ms_1.3M-16
-  - CF_868ms_1.4M-17
-  - CF_892ms_1.4M-18
-  - CF_920ms_1.4M-19
-  - CF_892ms_1.2M-20
-- name: ✈️ 电报代理
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - ⚡ CF 优选
-  - JP_643ms_1.9M-01
-  - FR_749ms_1.1M-02
-  - AT_811ms_1.4M-03
-  - US_807ms_1.3M-04
-  - US_847ms_1.5M-05
-  - IE_845ms_1.4M-06
-  - IT_871ms_1.2M-07
-  - CZ_863ms_1.1M-08
-  - CZ_875ms_1.1M-09
-  - DK_854ms_1.0M-10
-  - CF_791ms_1.4M-11
-  - CF_821ms_1.4M-12
-  - CF_844ms_1.4M-13
-  - CF_793ms_1.1M-14
-  - CF_821ms_1.3M-15
-  - CF_856ms_1.3M-16
-  - CF_868ms_1.4M-17
-  - CF_892ms_1.4M-18
-  - CF_920ms_1.4M-19
-  - CF_892ms_1.2M-20
-- name: 🤖 AI 服务
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - ⚡ CF 优选
-  - JP_643ms_1.9M-01
-  - US_807ms_1.3M-04
-  - US_847ms_1.5M-05
-  - CF_791ms_1.4M-11
-  - CF_821ms_1.4M-12
-  - CF_844ms_1.4M-13
-  - CF_793ms_1.1M-14
-  - CF_821ms_1.3M-15
-  - CF_856ms_1.3M-16
-  - CF_868ms_1.4M-17
-  - CF_892ms_1.4M-18
-  - CF_920ms_1.4M-19
-  - CF_892ms_1.2M-20
-- name: 🎯 全球直连
-  type: select
-  proxies:
-  - DIRECT
-- name: 🛑 全球拦截
-  type: select
-  proxies:
-  - REJECT
-- name: 🐟 漏网之鱼
-  type: select
-  proxies:
-  - 🚀 节点选择
-  - 🎯 全球直连
+  - US_807ms_1.3M-02
+  - US_847ms_1.5M-03
+  - CF_791ms_1.4M-04
+  - CF_821ms_1.4M-05
+  - CF_844ms_1.4M-06
+  - CF_793ms_1.1M-07
+  - CF_821ms_1.3M-08
+  - CF_856ms_1.3M-09
+  - CF_868ms_1.4M-10
+  - CF_892ms_1.4M-11
+  - CF_920ms_1.4M-12
+  - CF_892ms_1.2M-13
 rules:
-- DOMAIN-SUFFIX,telegram.org,✈️ 电报代理
-- DOMAIN-SUFFIX,telegram.me,✈️ 电报代理
-- DOMAIN-SUFFIX,t.me,✈️ 电报代理
-- DOMAIN-SUFFIX,tdesktop.com,✈️ 电报代理
-- DOMAIN-SUFFIX,telesco.pe,✈️ 电报代理
-- DOMAIN-KEYWORD,telegram,✈️ 电报代理
-- IP-CIDR,91.108.4.0/22,✈️ 电报代理,no-resolve
-- IP-CIDR,91.108.8.0/22,✈️ 电报代理,no-resolve
-- IP-CIDR,91.108.12.0/22,✈️ 电报代理,no-resolve
-- IP-CIDR,91.108.16.0/22,✈️ 电报代理,no-resolve
-- IP-CIDR,91.108.56.0/22,✈️ 电报代理,no-resolve
-- IP-CIDR,149.154.160.0/20,✈️ 电报代理,no-resolve
-- IP-CIDR,149.154.164.0/22,✈️ 电报代理,no-resolve
-- IP-CIDR,149.154.168.0/22,✈️ 电报代理,no-resolve
-- IP-CIDR,149.154.172.0/22,✈️ 电报代理,no-resolve
+- DOMAIN-SUFFIX,telegram.org,🚀 节点选择
+- DOMAIN-SUFFIX,telegram.me,🚀 节点选择
+- DOMAIN-SUFFIX,t.me,🚀 节点选择
+- DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
+- DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
+- DOMAIN-KEYWORD,telegram,🚀 节点选择
+- IP-CIDR,91.108.4.0/22,🚀 节点选择,no-resolve
+- IP-CIDR,91.108.8.0/22,🚀 节点选择,no-resolve
+- IP-CIDR,91.108.12.0/22,🚀 节点选择,no-resolve
+- IP-CIDR,91.108.16.0/22,🚀 节点选择,no-resolve
+- IP-CIDR,91.108.56.0/22,🚀 节点选择,no-resolve
+- IP-CIDR,149.154.160.0/20,🚀 节点选择,no-resolve
+- IP-CIDR,149.154.164.0/22,🚀 节点选择,no-resolve
+- IP-CIDR,149.154.168.0/22,🚀 节点选择,no-resolve
+- IP-CIDR,149.154.172.0/22,🚀 节点选择,no-resolve
 - DOMAIN-SUFFIX,twitter.com,🚀 节点选择
 - DOMAIN-SUFFIX,x.com,🚀 节点选择
 - DOMAIN-SUFFIX,twimg.com,🚀 节点选择
 - DOMAIN-KEYWORD,twitter,🚀 节点选择
-- DOMAIN-SUFFIX,openai.com,🤖 AI 服务
-- DOMAIN-SUFFIX,chatgpt.com,🤖 AI 服务
-- DOMAIN-SUFFIX,oaistatic.com,🤖 AI 服务
-- DOMAIN-SUFFIX,oaiusercontent.com,🤖 AI 服务
-- DOMAIN-SUFFIX,anthropic.com,🤖 AI 服务
-- DOMAIN-SUFFIX,claude.ai,🤖 AI 服务
-- DOMAIN-SUFFIX,generativelanguage.googleapis.com,🤖 AI 服务
-- DOMAIN-SUFFIX,bard.google.com,🤖 AI 服务
-- DOMAIN-SUFFIX,gemini.google.com,🤖 AI 服务
-- DOMAIN-KEYWORD,openai,🤖 AI 服务
-- DOMAIN-KEYWORD,anthropic,🤖 AI 服务
-- GEOIP,LAN,🎯 全球直连,no-resolve
-- GEOIP,CN,🎯 全球直连,no-resolve
-- MATCH,🐟 漏网之鱼
+- DOMAIN-SUFFIX,openai.com,🚀 节点选择
+- DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
+- DOMAIN-SUFFIX,oaistatic.com,🚀 节点选择
+- DOMAIN-SUFFIX,oaiusercontent.com,🚀 节点选择
+- DOMAIN-KEYWORD,openai,🚀 节点选择
+- DOMAIN-SUFFIX,gemini.google.com,🚀 节点选择
+- DOMAIN-SUFFIX,bard.google.com,🚀 节点选择
+- DOMAIN-SUFFIX,generativelanguage.googleapis.com,🚀 节点选择
+- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🚀 节点选择
+- DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
+- DOMAIN-SUFFIX,claude.ai,🚀 节点选择
+- DOMAIN-KEYWORD,anthropic,🚀 节点选择
+- GEOIP,LAN,DIRECT,no-resolve
+- GEOIP,CN,DIRECT,no-resolve
+- MATCH,🚀 节点选择
