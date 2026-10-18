@@ -28,9 +28,9 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: ID_0ms_0.0M-01
+- name: JP_643ms_1.9M-01
   type: vless
-  server: 43.174.193.1
+  server: 157.254.198.27
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -43,9 +43,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: US_0ms_0.0M-02
+- name: FR_749ms_1.1M-02
   type: vless
-  server: 45.59.128.171
+  server: 51.210.159.218
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -58,9 +58,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CA_0ms_0.0M-03
+- name: AT_811ms_1.4M-03
   type: vless
-  server: 45.133.17.118
+  server: 37.235.56.86
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -73,9 +73,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CH_0ms_0.0M-04
+- name: US_807ms_1.3M-04
   type: vless
-  server: 45.90.59.18
+  server: 45.77.190.163
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -88,7 +88,67 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CZ_0ms_0.0M-05
+- name: US_847ms_1.5M-05
+  type: vless
+  server: 69.40.207.130
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: IE_845ms_1.4M-06
+  type: vless
+  server: 45.141.234.138
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: IT_871ms_1.2M-07
+  type: vless
+  server: 5.249.148.85
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: CZ_863ms_1.1M-08
+  type: vless
+  server: 62.233.57.80
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: CZ_875ms_1.1M-09
   type: vless
   server: 46.28.70.117
   port: 443
@@ -103,9 +163,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: FR_0ms_0.0M-06
+- name: DK_854ms_1.0M-10
   type: vless
-  server: 62.60.156.24
+  server: 45.148.31.204
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -118,9 +178,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: AU_0ms_0.0M-07
+- name: CF_791ms_1.4M-11
   type: vless
-  server: 158.180.5.171
+  server: 198.41.213.65
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -133,9 +193,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: AU_0ms_0.0M-08
+- name: CF_821ms_1.4M-12
   type: vless
-  server: 125.7.24.251
+  server: 162.159.82.86
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -148,9 +208,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CM_0ms_0.0M-09
+- name: CF_844ms_1.4M-13
   type: vless
-  server: 172.67.154.254
+  server: 108.162.198.4
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -163,9 +223,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: AR_0ms_0.0M-10
+- name: CF_793ms_1.1M-14
   type: vless
-  server: 43.174.195.1
+  server: 108.162.198.129
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -178,9 +238,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_0ms_0.0M-11
+- name: CF_821ms_1.3M-15
   type: vless
-  server: 104.20.93.101
+  server: 108.162.198.94
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -193,9 +253,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_0ms_0.0M-12
+- name: CF_856ms_1.3M-16
   type: vless
-  server: 104.16.158.189
+  server: 198.41.213.73
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -208,9 +268,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_0ms_0.0M-13
+- name: CF_868ms_1.4M-17
   type: vless
-  server: 172.65.117.202
+  server: 108.162.198.225
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -223,9 +283,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_0ms_0.0M-14
+- name: CF_892ms_1.4M-18
   type: vless
-  server: 104.26.34.19
+  server: 104.17.150.225
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -238,9 +298,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_0ms_0.0M-15
+- name: CF_920ms_1.4M-19
   type: vless
-  server: 172.67.131.78
+  server: 104.17.154.97
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -253,69 +313,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: CF_0ms_0.0M-16
+- name: CF_892ms_1.2M-20
   type: vless
-  server: 104.25.112.77
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: CF_0ms_0.0M-17
-  type: vless
-  server: 104.21.58.35
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: CF_0ms_0.0M-18
-  type: vless
-  server: 172.66.41.126
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: CF_0ms_0.0M-19
-  type: vless
-  server: 104.19.157.80
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: CF_0ms_0.0M-20
-  type: vless
-  server: 104.18.211.104
+  server: 103.31.4.137
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -335,107 +335,108 @@ proxy-groups:
   - ⚡ CF 优选
   - ♻️ 自动测速
   - 🎯 全球直连
-  - ID_0ms_0.0M-01
-  - US_0ms_0.0M-02
-  - CA_0ms_0.0M-03
-  - CH_0ms_0.0M-04
-  - CZ_0ms_0.0M-05
-  - FR_0ms_0.0M-06
-  - AU_0ms_0.0M-07
-  - AU_0ms_0.0M-08
-  - CM_0ms_0.0M-09
-  - AR_0ms_0.0M-10
-  - CF_0ms_0.0M-11
-  - CF_0ms_0.0M-12
-  - CF_0ms_0.0M-13
-  - CF_0ms_0.0M-14
-  - CF_0ms_0.0M-15
-  - CF_0ms_0.0M-16
-  - CF_0ms_0.0M-17
-  - CF_0ms_0.0M-18
-  - CF_0ms_0.0M-19
-  - CF_0ms_0.0M-20
+  - JP_643ms_1.9M-01
+  - FR_749ms_1.1M-02
+  - AT_811ms_1.4M-03
+  - US_807ms_1.3M-04
+  - US_847ms_1.5M-05
+  - IE_845ms_1.4M-06
+  - IT_871ms_1.2M-07
+  - CZ_863ms_1.1M-08
+  - CZ_875ms_1.1M-09
+  - DK_854ms_1.0M-10
+  - CF_791ms_1.4M-11
+  - CF_821ms_1.4M-12
+  - CF_844ms_1.4M-13
+  - CF_793ms_1.1M-14
+  - CF_821ms_1.3M-15
+  - CF_856ms_1.3M-16
+  - CF_868ms_1.4M-17
+  - CF_892ms_1.4M-18
+  - CF_920ms_1.4M-19
+  - CF_892ms_1.2M-20
 - name: ⚡ CF 优选
   type: select
   proxies:
-  - ID_0ms_0.0M-01
-  - US_0ms_0.0M-02
-  - CA_0ms_0.0M-03
-  - CH_0ms_0.0M-04
-  - CZ_0ms_0.0M-05
-  - FR_0ms_0.0M-06
-  - AU_0ms_0.0M-07
-  - AU_0ms_0.0M-08
-  - CM_0ms_0.0M-09
-  - AR_0ms_0.0M-10
+  - JP_643ms_1.9M-01
+  - FR_749ms_1.1M-02
+  - AT_811ms_1.4M-03
+  - US_807ms_1.3M-04
+  - US_847ms_1.5M-05
+  - IE_845ms_1.4M-06
+  - IT_871ms_1.2M-07
+  - CZ_863ms_1.1M-08
+  - CZ_875ms_1.1M-09
+  - DK_854ms_1.0M-10
 - name: ♻️ 自动测速
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 600
   tolerance: 80
   proxies:
-  - ID_0ms_0.0M-01
-  - US_0ms_0.0M-02
-  - CA_0ms_0.0M-03
-  - CH_0ms_0.0M-04
-  - CZ_0ms_0.0M-05
-  - FR_0ms_0.0M-06
-  - AU_0ms_0.0M-07
-  - AU_0ms_0.0M-08
-  - CM_0ms_0.0M-09
-  - AR_0ms_0.0M-10
-  - CF_0ms_0.0M-11
-  - CF_0ms_0.0M-12
-  - CF_0ms_0.0M-13
-  - CF_0ms_0.0M-14
-  - CF_0ms_0.0M-15
-  - CF_0ms_0.0M-16
-  - CF_0ms_0.0M-17
-  - CF_0ms_0.0M-18
-  - CF_0ms_0.0M-19
-  - CF_0ms_0.0M-20
+  - JP_643ms_1.9M-01
+  - FR_749ms_1.1M-02
+  - AT_811ms_1.4M-03
+  - US_807ms_1.3M-04
+  - US_847ms_1.5M-05
+  - IE_845ms_1.4M-06
+  - IT_871ms_1.2M-07
+  - CZ_863ms_1.1M-08
+  - CZ_875ms_1.1M-09
+  - DK_854ms_1.0M-10
+  - CF_791ms_1.4M-11
+  - CF_821ms_1.4M-12
+  - CF_844ms_1.4M-13
+  - CF_793ms_1.1M-14
+  - CF_821ms_1.3M-15
+  - CF_856ms_1.3M-16
+  - CF_868ms_1.4M-17
+  - CF_892ms_1.4M-18
+  - CF_920ms_1.4M-19
+  - CF_892ms_1.2M-20
 - name: ✈️ 电报代理
   type: select
   proxies:
   - 🚀 节点选择
   - ⚡ CF 优选
-  - ID_0ms_0.0M-01
-  - US_0ms_0.0M-02
-  - CA_0ms_0.0M-03
-  - CH_0ms_0.0M-04
-  - CZ_0ms_0.0M-05
-  - FR_0ms_0.0M-06
-  - AU_0ms_0.0M-07
-  - AU_0ms_0.0M-08
-  - CM_0ms_0.0M-09
-  - AR_0ms_0.0M-10
-  - CF_0ms_0.0M-11
-  - CF_0ms_0.0M-12
-  - CF_0ms_0.0M-13
-  - CF_0ms_0.0M-14
-  - CF_0ms_0.0M-15
-  - CF_0ms_0.0M-16
-  - CF_0ms_0.0M-17
-  - CF_0ms_0.0M-18
-  - CF_0ms_0.0M-19
-  - CF_0ms_0.0M-20
+  - JP_643ms_1.9M-01
+  - FR_749ms_1.1M-02
+  - AT_811ms_1.4M-03
+  - US_807ms_1.3M-04
+  - US_847ms_1.5M-05
+  - IE_845ms_1.4M-06
+  - IT_871ms_1.2M-07
+  - CZ_863ms_1.1M-08
+  - CZ_875ms_1.1M-09
+  - DK_854ms_1.0M-10
+  - CF_791ms_1.4M-11
+  - CF_821ms_1.4M-12
+  - CF_844ms_1.4M-13
+  - CF_793ms_1.1M-14
+  - CF_821ms_1.3M-15
+  - CF_856ms_1.3M-16
+  - CF_868ms_1.4M-17
+  - CF_892ms_1.4M-18
+  - CF_920ms_1.4M-19
+  - CF_892ms_1.2M-20
 - name: 🤖 AI 服务
   type: select
   proxies:
   - 🚀 节点选择
   - ⚡ CF 优选
-  - US_0ms_0.0M-02
-  - CM_0ms_0.0M-09
-  - CF_0ms_0.0M-11
-  - CF_0ms_0.0M-12
-  - CF_0ms_0.0M-13
-  - CF_0ms_0.0M-14
-  - CF_0ms_0.0M-15
-  - CF_0ms_0.0M-16
-  - CF_0ms_0.0M-17
-  - CF_0ms_0.0M-18
-  - CF_0ms_0.0M-19
-  - CF_0ms_0.0M-20
+  - JP_643ms_1.9M-01
+  - US_807ms_1.3M-04
+  - US_847ms_1.5M-05
+  - CF_791ms_1.4M-11
+  - CF_821ms_1.4M-12
+  - CF_844ms_1.4M-13
+  - CF_793ms_1.1M-14
+  - CF_821ms_1.3M-15
+  - CF_856ms_1.3M-16
+  - CF_868ms_1.4M-17
+  - CF_892ms_1.4M-18
+  - CF_920ms_1.4M-19
+  - CF_892ms_1.2M-20
 - name: 🎯 全球直连
   type: select
   proxies:
