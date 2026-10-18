@@ -28,9 +28,24 @@ dns:
     ipcidr:
     - 240.0.0.0/4
 proxies:
-- name: US_1139ms_2.4M-01
+- name: JP_53ms_3.5M-01
   type: vless
-  server: 45.77.190.163
+  server: 45.153.247.58
+  port: 61850
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: KR_58ms_3.5M-02
+  type: vless
+  server: 47.80.57.116
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: false
@@ -43,9 +58,9 @@ proxies:
     path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: US_1232ms_2.3M-02
+- name: JP_59ms_3.5M-03
   type: vless
-  server: 69.40.207.130
+  server: 157.254.198.27
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: false
@@ -58,10 +73,10 @@ proxies:
     path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: US_1261ms_2.2M-03
+- name: KR_87ms_3.5M-04
   type: vless
-  server: 179.255.102.56
-  port: 17571
+  server: 116.127.201.209
+  port: 12228
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: false
   tls: true
@@ -73,9 +88,9 @@ proxies:
     path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: US_1273ms_2.2M-04
+- name: KR_91ms_3.5M-05
   type: vless
-  server: 131.143.180.155
+  server: 144.24.90.178
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: false
@@ -88,7 +103,202 @@ proxies:
     path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: US_1331ms_2.2M-05
+- name: KR_99ms_3.5M-06
+  type: vless
+  server: 168.110.111.55
+  port: 10010
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: KR_104ms_3.5M-07
+  type: vless
+  server: 168.110.99.68
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: KR_106ms_3.5M-08
+  type: vless
+  server: 144.24.86.21
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: JP_107ms_3.5M-09
+  type: vless
+  server: 3.113.169.241
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: JP_107ms_3.5M-10
+  type: vless
+  server: 52.68.244.18
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: JP_108ms_3.5M-11
+  type: vless
+  server: 3.114.102.166
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: KR_112ms_3.4M-12
+  type: vless
+  server: 3.38.190.222
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: JP_118ms_3.4M-13
+  type: vless
+  server: 54.150.192.0
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: KR_128ms_3.3M-14
+  type: vless
+  server: 52.79.188.223
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: JP_129ms_3.3M-15
+  type: vless
+  server: 13.193.244.81
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: KR_130ms_3.3M-16
+  type: vless
+  server: 13.125.9.223
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: JP_143ms_3.2M-17
+  type: vless
+  server: 54.64.1.93
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: JP_144ms_3.2M-18
+  type: vless
+  server: 52.196.107.77
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: false
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: US_151ms_3.1M-19
   type: vless
   server: 154.17.28.234
   port: 43711
@@ -103,219 +313,9 @@ proxies:
     path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: US_1349ms_2.1M-06
+- name: US_157ms_3.1M-20
   type: vless
-  server: 64.186.254.109
-  port: 8443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: US_1379ms_2.1M-07
-  type: vless
-  server: 154.17.20.146
-  port: 26953
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: US_1408ms_2.0M-08
-  type: vless
-  server: 154.17.6.42
-  port: 2053
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: US_1424ms_2.0M-09
-  type: vless
-  server: 179.255.102.54
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: US_1427ms_2.0M-10
-  type: vless
-  server: 37.123.194.251
-  port: 8443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: US_1442ms_2.0M-11
-  type: vless
-  server: 179.253.247.158
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: US_1454ms_2.0M-12
-  type: vless
-  server: 194.36.24.246
-  port: 6511
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: US_1462ms_2.0M-13
-  type: vless
-  server: 146.19.116.243
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: US_1599ms_1.8M-14
-  type: vless
-  server: 45.59.128.171
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: JP_1685ms_1.7M-15
-  type: vless
-  server: 45.76.100.75
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: JP_1723ms_1.6M-16
-  type: vless
-  server: 13.193.150.127
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: JP_1752ms_1.6M-17
-  type: vless
-  server: 45.63.124.130
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: JP_1753ms_1.6M-18
-  type: vless
-  server: 154.31.114.162
-  port: 8443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: TW_1764ms_1.6M-19
-  type: vless
-  server: 140.235.39.162
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: JP_1776ms_1.5M-20
-  type: vless
-  server: 52.68.244.18
+  server: 131.143.180.155
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: false
@@ -333,52 +333,52 @@ proxy-groups:
   type: select
   proxies:
   - ♻️ 自动选择
-  - US_1139ms_2.4M-01
-  - US_1232ms_2.3M-02
-  - US_1261ms_2.2M-03
-  - US_1273ms_2.2M-04
-  - US_1331ms_2.2M-05
-  - US_1349ms_2.1M-06
-  - US_1379ms_2.1M-07
-  - US_1408ms_2.0M-08
-  - US_1424ms_2.0M-09
-  - US_1427ms_2.0M-10
-  - US_1442ms_2.0M-11
-  - US_1454ms_2.0M-12
-  - US_1462ms_2.0M-13
-  - US_1599ms_1.8M-14
-  - JP_1685ms_1.7M-15
-  - JP_1723ms_1.6M-16
-  - JP_1752ms_1.6M-17
-  - JP_1753ms_1.6M-18
-  - TW_1764ms_1.6M-19
-  - JP_1776ms_1.5M-20
+  - JP_53ms_3.5M-01
+  - KR_58ms_3.5M-02
+  - JP_59ms_3.5M-03
+  - KR_87ms_3.5M-04
+  - KR_91ms_3.5M-05
+  - KR_99ms_3.5M-06
+  - KR_104ms_3.5M-07
+  - KR_106ms_3.5M-08
+  - JP_107ms_3.5M-09
+  - JP_107ms_3.5M-10
+  - JP_108ms_3.5M-11
+  - KR_112ms_3.4M-12
+  - JP_118ms_3.4M-13
+  - KR_128ms_3.3M-14
+  - JP_129ms_3.3M-15
+  - KR_130ms_3.3M-16
+  - JP_143ms_3.2M-17
+  - JP_144ms_3.2M-18
+  - US_151ms_3.1M-19
+  - US_157ms_3.1M-20
 - name: ♻️ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 600
   tolerance: 80
   proxies:
-  - US_1139ms_2.4M-01
-  - US_1232ms_2.3M-02
-  - US_1261ms_2.2M-03
-  - US_1273ms_2.2M-04
-  - US_1331ms_2.2M-05
-  - US_1349ms_2.1M-06
-  - US_1379ms_2.1M-07
-  - US_1408ms_2.0M-08
-  - US_1424ms_2.0M-09
-  - US_1427ms_2.0M-10
-  - US_1442ms_2.0M-11
-  - US_1454ms_2.0M-12
-  - US_1462ms_2.0M-13
-  - US_1599ms_1.8M-14
-  - JP_1685ms_1.7M-15
-  - JP_1723ms_1.6M-16
-  - JP_1752ms_1.6M-17
-  - JP_1753ms_1.6M-18
-  - TW_1764ms_1.6M-19
-  - JP_1776ms_1.5M-20
+  - JP_53ms_3.5M-01
+  - KR_58ms_3.5M-02
+  - JP_59ms_3.5M-03
+  - KR_87ms_3.5M-04
+  - KR_91ms_3.5M-05
+  - KR_99ms_3.5M-06
+  - KR_104ms_3.5M-07
+  - KR_106ms_3.5M-08
+  - JP_107ms_3.5M-09
+  - JP_107ms_3.5M-10
+  - JP_108ms_3.5M-11
+  - KR_112ms_3.4M-12
+  - JP_118ms_3.4M-13
+  - KR_128ms_3.3M-14
+  - JP_129ms_3.3M-15
+  - KR_130ms_3.3M-16
+  - JP_143ms_3.2M-17
+  - JP_144ms_3.2M-18
+  - US_151ms_3.1M-19
+  - US_157ms_3.1M-20
 rules:
 - AND,((NETWORK,udp),(DST-PORT,443)),REJECT
 - DST-PORT,443,REJECT,udp
