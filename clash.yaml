@@ -1,432 +1,485 @@
+port: 7890
+socks-port: 7891
+mixed-port: 7890
+allow-lan: true
 mode: rule
+log-level: info
 ipv6: false
+external-controller: 127.0.0.1:9090
 unified-delay: true
 tcp-concurrent: true
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  nameserver:
+  - https://223.5.5.5/dns-query
+  - https://119.29.29.29/dns-query
+  fallback:
+  - https://1.1.1.1/dns-query
+  - https://8.8.8.8/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
 proxies:
-- name: JP_53ms_3.5M-01
-  type: vless
-  server: 45.153.247.58
-  port: 61850
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: KR_58ms_3.5M-02
-  type: vless
-  server: 47.80.57.116
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: JP_59ms_3.5M-03
+- name: JP_579ms_2.2M-01
   type: vless
   server: 157.254.198.27
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: KR_87ms_3.5M-04
+- name: US_756ms_1.3M-02
   type: vless
-  server: 116.127.201.209
-  port: 12228
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: KR_91ms_3.5M-05
-  type: vless
-  server: 144.24.90.178
+  server: 45.77.190.163
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: KR_99ms_3.5M-06
+- name: AT_778ms_1.4M-03
   type: vless
-  server: 168.110.111.55
-  port: 10010
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: KR_104ms_3.5M-07
-  type: vless
-  server: 168.110.99.68
+  server: 37.235.56.86
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: KR_106ms_3.5M-08
+- name: NL_733ms_1.1M-04
   type: vless
-  server: 144.24.86.21
+  server: 62.60.244.74
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: JP_107ms_3.5M-09
+- name: CH_818ms_1.4M-05
   type: vless
-  server: 3.113.169.241
+  server: 45.90.59.18
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: JP_107ms_3.5M-10
+- name: AT_774ms_1.0M-06
   type: vless
-  server: 52.68.244.18
+  server: 152.53.112.170
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: JP_108ms_3.5M-11
+- name: CH_844ms_1.1M-07
   type: vless
-  server: 3.114.102.166
+  server: 45.59.117.171
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: KR_112ms_3.4M-12
+- name: IE_898ms_1.4M-08
   type: vless
-  server: 3.38.190.222
+  server: 45.141.234.138
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: JP_118ms_3.4M-13
+- name: AT_853ms_1.1M-09
   type: vless
-  server: 54.150.192.0
+  server: 151.236.8.98
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: KR_128ms_3.3M-14
+- name: ES_776ms_0.7M-10
   type: vless
-  server: 52.79.188.223
+  server: 34.175.202.195
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: JP_129ms_3.3M-15
+- name: CF_746ms_1.7M-11
   type: vless
-  server: 13.193.244.81
+  server: 162.159.160.118
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: KR_130ms_3.3M-16
+- name: CF_826ms_1.4M-12
   type: vless
-  server: 13.125.9.223
+  server: 104.17.154.97
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: JP_143ms_3.2M-17
+- name: CF_809ms_1.2M-13
   type: vless
-  server: 54.64.1.93
+  server: 104.17.135.68
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: JP_144ms_3.2M-18
+- name: CF_823ms_1.3M-14
   type: vless
-  server: 52.196.107.77
+  server: 108.162.198.202
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: US_151ms_3.1M-19
+- name: CF_840ms_1.3M-15
   type: vless
-  server: 154.17.28.234
-  port: 43711
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
-  tls: true
-  client-fingerprint: random
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2560
-    headers:
-      Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
-- name: US_157ms_3.1M-20
-  type: vless
-  server: 131.143.180.155
+  server: 104.17.149.186
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: false
+  udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
+- name: CF_849ms_1.3M-16
+  type: vless
+  server: 198.41.213.65
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: CF_810ms_1.0M-17
+  type: vless
+  server: 104.17.150.225
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: CF_872ms_1.4M-18
+  type: vless
+  server: 104.17.131.164
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: CF_834ms_1.1M-19
+  type: vless
+  server: 108.162.198.225
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: CF_860ms_1.2M-20
+  type: vless
+  server: 162.159.82.86
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - JP_53ms_3.5M-01
-  - KR_58ms_3.5M-02
-  - JP_59ms_3.5M-03
-  - KR_87ms_3.5M-04
-  - KR_91ms_3.5M-05
-  - KR_99ms_3.5M-06
-  - KR_104ms_3.5M-07
-  - KR_106ms_3.5M-08
-  - JP_107ms_3.5M-09
-  - JP_107ms_3.5M-10
-  - JP_108ms_3.5M-11
-  - KR_112ms_3.4M-12
-  - JP_118ms_3.4M-13
-  - KR_128ms_3.3M-14
-  - JP_129ms_3.3M-15
-  - KR_130ms_3.3M-16
-  - JP_143ms_3.2M-17
-  - JP_144ms_3.2M-18
-  - US_151ms_3.1M-19
-  - US_157ms_3.1M-20
-  - ♻️ 自动选择
-- name: ♻️ 自动选择
+  - ⚡ CF 优选
+  - ♻️ 自动测速
+  - 🎯 全球直连
+  - JP_579ms_2.2M-01
+  - US_756ms_1.3M-02
+  - AT_778ms_1.4M-03
+  - NL_733ms_1.1M-04
+  - CH_818ms_1.4M-05
+  - AT_774ms_1.0M-06
+  - CH_844ms_1.1M-07
+  - IE_898ms_1.4M-08
+  - AT_853ms_1.1M-09
+  - ES_776ms_0.7M-10
+  - CF_746ms_1.7M-11
+  - CF_826ms_1.4M-12
+  - CF_809ms_1.2M-13
+  - CF_823ms_1.3M-14
+  - CF_840ms_1.3M-15
+  - CF_849ms_1.3M-16
+  - CF_810ms_1.0M-17
+  - CF_872ms_1.4M-18
+  - CF_834ms_1.1M-19
+  - CF_860ms_1.2M-20
+- name: ⚡ CF 优选
+  type: select
+  proxies:
+  - JP_579ms_2.2M-01
+  - US_756ms_1.3M-02
+  - AT_778ms_1.4M-03
+  - NL_733ms_1.1M-04
+  - CH_818ms_1.4M-05
+  - AT_774ms_1.0M-06
+  - CH_844ms_1.1M-07
+  - IE_898ms_1.4M-08
+  - AT_853ms_1.1M-09
+  - ES_776ms_0.7M-10
+- name: ♻️ 自动测速
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 600
   tolerance: 80
   proxies:
-  - JP_53ms_3.5M-01
-  - KR_58ms_3.5M-02
-  - JP_59ms_3.5M-03
-  - KR_87ms_3.5M-04
-  - KR_91ms_3.5M-05
-  - KR_99ms_3.5M-06
-  - KR_104ms_3.5M-07
-  - KR_106ms_3.5M-08
-  - JP_107ms_3.5M-09
-  - JP_107ms_3.5M-10
-  - JP_108ms_3.5M-11
-  - KR_112ms_3.4M-12
-  - JP_118ms_3.4M-13
-  - KR_128ms_3.3M-14
-  - JP_129ms_3.3M-15
-  - KR_130ms_3.3M-16
-  - JP_143ms_3.2M-17
-  - JP_144ms_3.2M-18
-  - US_151ms_3.1M-19
-  - US_157ms_3.1M-20
+  - JP_579ms_2.2M-01
+  - US_756ms_1.3M-02
+  - AT_778ms_1.4M-03
+  - NL_733ms_1.1M-04
+  - CH_818ms_1.4M-05
+  - AT_774ms_1.0M-06
+  - CH_844ms_1.1M-07
+  - IE_898ms_1.4M-08
+  - AT_853ms_1.1M-09
+  - ES_776ms_0.7M-10
+  - CF_746ms_1.7M-11
+  - CF_826ms_1.4M-12
+  - CF_809ms_1.2M-13
+  - CF_823ms_1.3M-14
+  - CF_840ms_1.3M-15
+  - CF_849ms_1.3M-16
+  - CF_810ms_1.0M-17
+  - CF_872ms_1.4M-18
+  - CF_834ms_1.1M-19
+  - CF_860ms_1.2M-20
+- name: ✈️ 电报代理
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ⚡ CF 优选
+  - JP_579ms_2.2M-01
+  - US_756ms_1.3M-02
+  - AT_778ms_1.4M-03
+  - NL_733ms_1.1M-04
+  - CH_818ms_1.4M-05
+  - AT_774ms_1.0M-06
+  - CH_844ms_1.1M-07
+  - IE_898ms_1.4M-08
+  - AT_853ms_1.1M-09
+  - ES_776ms_0.7M-10
+  - CF_746ms_1.7M-11
+  - CF_826ms_1.4M-12
+  - CF_809ms_1.2M-13
+  - CF_823ms_1.3M-14
+  - CF_840ms_1.3M-15
+  - CF_849ms_1.3M-16
+  - CF_810ms_1.0M-17
+  - CF_872ms_1.4M-18
+  - CF_834ms_1.1M-19
+  - CF_860ms_1.2M-20
+- name: 🤖 AI 服务
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - ⚡ CF 优选
+  - JP_579ms_2.2M-01
+  - US_756ms_1.3M-02
+  - CF_746ms_1.7M-11
+  - CF_826ms_1.4M-12
+  - CF_809ms_1.2M-13
+  - CF_823ms_1.3M-14
+  - CF_840ms_1.3M-15
+  - CF_849ms_1.3M-16
+  - CF_810ms_1.0M-17
+  - CF_872ms_1.4M-18
+  - CF_834ms_1.1M-19
+  - CF_860ms_1.2M-20
+- name: 🎯 全球直连
+  type: select
+  proxies:
+  - DIRECT
+- name: 🛑 全球拦截
+  type: select
+  proxies:
+  - REJECT
+- name: 🐟 漏网之鱼
+  type: select
+  proxies:
+  - 🚀 节点选择
+  - 🎯 全球直连
 rules:
-- AND,((NETWORK,udp),(DST-PORT,443)),REJECT
-- DOMAIN-SUFFIX,telegram.org,🚀 节点选择
-- DOMAIN-SUFFIX,telegram.me,🚀 节点选择
-- DOMAIN-SUFFIX,t.me,🚀 节点选择
-- DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
-- DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
-- DOMAIN-KEYWORD,telegram,🚀 节点选择
-- IP-CIDR,91.108.4.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,91.108.8.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,91.108.12.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,91.108.16.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,91.108.56.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,149.154.160.0/20,🚀 节点选择,no-resolve
-- IP-CIDR,149.154.164.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,149.154.168.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,149.154.172.0/22,🚀 节点选择,no-resolve
+- DOMAIN-SUFFIX,telegram.org,✈️ 电报代理
+- DOMAIN-SUFFIX,telegram.me,✈️ 电报代理
+- DOMAIN-SUFFIX,t.me,✈️ 电报代理
+- DOMAIN-SUFFIX,tdesktop.com,✈️ 电报代理
+- DOMAIN-SUFFIX,telesco.pe,✈️ 电报代理
+- DOMAIN-KEYWORD,telegram,✈️ 电报代理
+- IP-CIDR,91.108.4.0/22,✈️ 电报代理,no-resolve
+- IP-CIDR,91.108.8.0/22,✈️ 电报代理,no-resolve
+- IP-CIDR,91.108.12.0/22,✈️ 电报代理,no-resolve
+- IP-CIDR,91.108.16.0/22,✈️ 电报代理,no-resolve
+- IP-CIDR,91.108.56.0/22,✈️ 电报代理,no-resolve
+- IP-CIDR,149.154.160.0/20,✈️ 电报代理,no-resolve
+- IP-CIDR,149.154.164.0/22,✈️ 电报代理,no-resolve
+- IP-CIDR,149.154.168.0/22,✈️ 电报代理,no-resolve
+- IP-CIDR,149.154.172.0/22,✈️ 电报代理,no-resolve
 - DOMAIN-SUFFIX,twitter.com,🚀 节点选择
 - DOMAIN-SUFFIX,x.com,🚀 节点选择
 - DOMAIN-SUFFIX,twimg.com,🚀 节点选择
 - DOMAIN-KEYWORD,twitter,🚀 节点选择
-- DOMAIN-SUFFIX,openai.com,🚀 节点选择
-- DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
-- DOMAIN-SUFFIX,oaistatic.com,🚀 节点选择
-- DOMAIN-SUFFIX,oaiusercontent.com,🚀 节点选择
-- DOMAIN-KEYWORD,openai,🚀 节点选择
-- DOMAIN-SUFFIX,gemini.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,bard.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,generativelanguage.googleapis.com,🚀 节点选择
-- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🚀 节点选择
-- DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
-- DOMAIN-SUFFIX,claude.ai,🚀 节点选择
-- DOMAIN-KEYWORD,anthropic,🚀 节点选择
-- GEOIP,LAN,DIRECT,no-resolve
-- GEOIP,CN,DIRECT,no-resolve
-- MATCH,🚀 节点选择
+- DOMAIN-SUFFIX,openai.com,🤖 AI 服务
+- DOMAIN-SUFFIX,chatgpt.com,🤖 AI 服务
+- DOMAIN-SUFFIX,oaistatic.com,🤖 AI 服务
+- DOMAIN-SUFFIX,oaiusercontent.com,🤖 AI 服务
+- DOMAIN-SUFFIX,anthropic.com,🤖 AI 服务
+- DOMAIN-SUFFIX,claude.ai,🤖 AI 服务
+- DOMAIN-SUFFIX,generativelanguage.googleapis.com,🤖 AI 服务
+- DOMAIN-SUFFIX,bard.google.com,🤖 AI 服务
+- DOMAIN-SUFFIX,gemini.google.com,🤖 AI 服务
+- DOMAIN-KEYWORD,openai,🤖 AI 服务
+- DOMAIN-KEYWORD,anthropic,🤖 AI 服务
+- GEOIP,LAN,🎯 全球直连,no-resolve
+- GEOIP,CN,🎯 全球直连,no-resolve
+- MATCH,🐟 漏网之鱼
