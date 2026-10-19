@@ -2,8 +2,6 @@ mode: rule
 ipv6: false
 unified-delay: true
 tcp-concurrent: true
-keep-alive-idle: 15
-keep-alive-interval: 25
 proxies:
 - name: 01 | 🇯🇵 日本 | 25.0Mbps | 58ms
   type: vless
@@ -12,16 +10,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 02 | 🇰🇷 韩国 | 25.0Mbps | 67ms
   type: vless
   server: 43.108.46.150
@@ -29,16 +25,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 03 | 🇺🇸 美国 | 25.0Mbps | 154ms
   type: vless
   server: 69.40.207.130
@@ -46,16 +40,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 04 | 🇺🇸 美国 | 25.0Mbps | 168ms
   type: vless
   server: 45.59.128.171
@@ -63,16 +55,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 05 | 🇨🇦 加拿大 | 25.0Mbps | 174ms
   type: vless
   server: 104.17.156.11
@@ -80,16 +70,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 06 | 🌐 BE | 25.0Mbps | 177ms
   type: vless
   server: 35.241.172.224
@@ -97,16 +85,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 07 | 🇨🇦 加拿大 | 25.0Mbps | 179ms
   type: vless
   server: 104.17.150.71
@@ -114,16 +100,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 08 | 🇨🇦 加拿大 | 25.0Mbps | 180ms
   type: vless
   server: 104.17.140.2
@@ -131,16 +115,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 09 | 🇨🇦 加拿大 | 25.0Mbps | 184ms
   type: vless
   server: 104.17.140.1
@@ -148,16 +130,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 10 | 🇺🇸 美国 | 25.0Mbps | 184ms
   type: vless
   server: 45.77.190.163
@@ -165,16 +145,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 11 | 🇷🇸 塞尔维亚 | 25.0Mbps | 188ms
   type: vless
   server: 38.180.100.80
@@ -182,16 +160,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 12 | 🇫🇷 法国 | 25.0Mbps | 196ms
   type: vless
   server: 62.60.148.60
@@ -199,16 +175,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 13 | 🇨🇿 捷克 | 25.0Mbps | 199ms
   type: vless
   server: 62.233.57.80
@@ -216,16 +190,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 14 | 🇨🇭 瑞士 | 25.0Mbps | 204ms
   type: vless
   server: 45.90.59.18
@@ -233,16 +205,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 15 | 🇬🇧 英国 | 25.0Mbps | 204ms
   type: vless
   server: 57.128.183.35
@@ -250,16 +220,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 16 | 🇸🇮 斯洛文尼亚 | 25.0Mbps | 206ms
   type: vless
   server: 67.221.249.24
@@ -267,16 +235,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 17 | 🇧🇬 保加利亚 | 25.0Mbps | 208ms
   type: vless
   server: 185.141.61.113
@@ -284,16 +250,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 18 | 🇨🇿 捷克 | 25.0Mbps | 208ms
   type: vless
   server: 46.28.70.117
@@ -301,16 +265,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 19 | 🇦🇹 奥地利 | 25.0Mbps | 209ms
   type: vless
   server: 151.236.8.98
@@ -318,16 +280,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 - name: 20 | 🇫🇷 法国 | 25.0Mbps | 210ms
   type: vless
   server: 62.60.156.24
@@ -335,16 +295,14 @@ proxies:
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: random
+  client-fingerprint: chrome
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2560
+    path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-    max-early-data: 2560
-    early-data-header-name: Sec-WebSocket-Protocol
 proxy-groups:
 - name: 🚀 节点选择
   type: select
@@ -397,7 +355,7 @@ proxy-groups:
   - 19 | 🇦🇹 奥地利 | 25.0Mbps | 209ms
   - 20 | 🇫🇷 法国 | 25.0Mbps | 210ms
 rules:
-- AND,((NETWORK,udp),(DST-PORT,443)),REJECT
+- AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
 - DOMAIN-SUFFIX,telegram.org,🚀 节点选择
 - DOMAIN-SUFFIX,telegram.me,🚀 节点选择
 - DOMAIN-SUFFIX,t.me,🚀 节点选择
