@@ -2,331 +2,412 @@ mode: rule
 ipv6: false
 unified-delay: true
 tcp-concurrent: true
+tun:
+  enable: true
+  stack: mixed
+  auto-route: true
+  auto-detect-interface: true
+  dns-hijack:
+  - 0.0.0.0:53
+  mtu: 1400
+dns:
+  enable: true
+  ipv6: false
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  fake-ip-filter:
+  - '*.lan'
+  - '*.local'
+  - +.telegram.org
+  - +.t.me
+  - +.telegram.me
+  - +.telegra.ph
+  - +.tdesktop.com
+  - +.x.com
+  - +.twitter.com
+  - stun.*
+  default-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
+  nameserver:
+  - https://223.5.5.5/dns-query
+  - https://119.29.29.29/dns-query
+  fallback:
+  - https://1.1.1.1/dns-query
+  - https://8.8.8.8/dns-query
+  fallback-filter:
+    geoip: true
+    geoip-code: CN
+    ipcidr:
+    - 240.0.0.0/4
+  proxy-server-nameserver:
+  - 223.5.5.5
+  - 119.29.29.29
 proxies:
-- name: 01 | 🇯🇵 日本 | 25.0Mbps | 58ms
+- name: 01 | 🇫🇷 法国 | 12.9Mbps | 157ms
   type: vless
-  server: 157.254.198.27
+  server: 152.228.232.186
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 02 | 🇰🇷 韩国 | 25.0Mbps | 67ms
-  type: vless
-  server: 43.108.46.150
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 03 | 🇺🇸 美国 | 25.0Mbps | 154ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 02 | 🇺🇸 美国 | 11.1Mbps | 142ms
   type: vless
   server: 69.40.207.130
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 04 | 🇺🇸 美国 | 25.0Mbps | 168ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 03 | 🇯🇵 日本 | 2.0Mbps | 50ms
   type: vless
-  server: 45.59.128.171
+  server: 157.254.198.27
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 05 | 🇨🇦 加拿大 | 25.0Mbps | 174ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 04 | 🇳🇱 荷兰 | 9.5Mbps | 180ms
   type: vless
-  server: 104.17.156.11
+  server: 45.133.210.250
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 06 | 🌐 BE | 25.0Mbps | 177ms
-  type: vless
-  server: 35.241.172.224
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 07 | 🇨🇦 加拿大 | 25.0Mbps | 179ms
-  type: vless
-  server: 104.17.150.71
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 08 | 🇨🇦 加拿大 | 25.0Mbps | 180ms
-  type: vless
-  server: 104.17.140.2
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 09 | 🇨🇦 加拿大 | 25.0Mbps | 184ms
-  type: vless
-  server: 104.17.140.1
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 10 | 🇺🇸 美国 | 25.0Mbps | 184ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 05 | 🇺🇸 美国 | 11.2Mbps | 171ms
   type: vless
   server: 45.77.190.163
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 11 | 🇷🇸 塞尔维亚 | 25.0Mbps | 188ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 06 | 🇳🇱 荷兰 | 6.5Mbps | 153ms
   type: vless
-  server: 38.180.100.80
+  server: 62.60.244.74
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 12 | 🇫🇷 法国 | 25.0Mbps | 196ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 07 | 🇫🇷 法国 | 5.3Mbps | 153ms
+  type: vless
+  server: 51.210.159.218
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 08 | 🇨🇦 加拿大 | 9.7Mbps | 195ms
+  type: vless
+  server: 65.49.232.101
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 09 | 🇳🇱 荷兰 | 8.1Mbps | 151ms
   type: vless
   server: 62.60.148.60
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 13 | 🇨🇿 捷克 | 25.0Mbps | 199ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 10 | 🇨🇦 加拿大 | 8.9Mbps | 195ms
   type: vless
-  server: 62.233.57.80
+  server: 45.133.17.118
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 14 | 🇨🇭 瑞士 | 25.0Mbps | 204ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 11 | 🇨🇦 加拿大 | 8.1Mbps | 199ms
   type: vless
-  server: 45.90.59.18
+  server: 45.133.17.106
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 15 | 🇬🇧 英国 | 25.0Mbps | 204ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 12 | 🇫🇷 法国 | 7.3Mbps | 171ms
   type: vless
-  server: 57.128.183.35
+  server: 37.59.110.94
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 16 | 🇸🇮 斯洛文尼亚 | 25.0Mbps | 206ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 13 | 🇨🇦 加拿大 | 9.1Mbps | 193ms
   type: vless
-  server: 67.221.249.24
+  server: 45.133.16.41
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 17 | 🇧🇬 保加利亚 | 25.0Mbps | 208ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 14 | 🇨🇦 加拿大 | 8.8Mbps | 196ms
   type: vless
-  server: 185.141.61.113
+  server: 70.79.240.221
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 18 | 🇨🇿 捷克 | 25.0Mbps | 208ms
-  type: vless
-  server: 46.28.70.117
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 19 | 🇦🇹 奥地利 | 25.0Mbps | 209ms
-  type: vless
-  server: 151.236.8.98
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 20 | 🇫🇷 法国 | 25.0Mbps | 210ms
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 15 | 🇫🇷 法国 | 8.6Mbps | 160ms
   type: vless
   server: 62.60.156.24
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
-  client-fingerprint: chrome
+  client-fingerprint: random
   servername: edt2.814600117.ccwu.cc
   skip-cert-verify: false
   network: ws
   ws-opts:
-    path: /?ed=2048
+    path: /?ed=2560
     headers:
       Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 16 | 🇫🇷 法国 | 7.7Mbps | 153ms
+  type: vless
+  server: 54.37.227.89
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 17 | 🇬🇧 英国 | 7.5Mbps | 154ms
+  type: vless
+  server: 45.129.126.177
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 18 | 🇫🇷 法国 | 6.1Mbps | 152ms
+  type: vless
+  server: 37.187.98.185
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 19 | 🇨🇦 加拿大 | 6.0Mbps | 237ms
+  type: vless
+  server: 158.69.220.24
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
+- name: 20 | 🇳🇱 荷兰 | 1.2Mbps | 194ms
+  type: vless
+  server: 62.171.228.38
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: random
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2560
+    headers:
+      Host: edt2.814600117.ccwu.cc
+    max-early-data: 2560
+    early-data-header-name: Sec-WebSocket-Protocol
 proxy-groups:
 - name: 🚀 节点选择
   type: select
   proxies:
-  - 01 | 🇯🇵 日本 | 25.0Mbps | 58ms
-  - 02 | 🇰🇷 韩国 | 25.0Mbps | 67ms
-  - 03 | 🇺🇸 美国 | 25.0Mbps | 154ms
-  - 04 | 🇺🇸 美国 | 25.0Mbps | 168ms
-  - 05 | 🇨🇦 加拿大 | 25.0Mbps | 174ms
-  - 06 | 🌐 BE | 25.0Mbps | 177ms
-  - 07 | 🇨🇦 加拿大 | 25.0Mbps | 179ms
-  - 08 | 🇨🇦 加拿大 | 25.0Mbps | 180ms
-  - 09 | 🇨🇦 加拿大 | 25.0Mbps | 184ms
-  - 10 | 🇺🇸 美国 | 25.0Mbps | 184ms
-  - 11 | 🇷🇸 塞尔维亚 | 25.0Mbps | 188ms
-  - 12 | 🇫🇷 法国 | 25.0Mbps | 196ms
-  - 13 | 🇨🇿 捷克 | 25.0Mbps | 199ms
-  - 14 | 🇨🇭 瑞士 | 25.0Mbps | 204ms
-  - 15 | 🇬🇧 英国 | 25.0Mbps | 204ms
-  - 16 | 🇸🇮 斯洛文尼亚 | 25.0Mbps | 206ms
-  - 17 | 🇧🇬 保加利亚 | 25.0Mbps | 208ms
-  - 18 | 🇨🇿 捷克 | 25.0Mbps | 208ms
-  - 19 | 🇦🇹 奥地利 | 25.0Mbps | 209ms
-  - 20 | 🇫🇷 法国 | 25.0Mbps | 210ms
+  - 01 | 🇫🇷 法国 | 12.9Mbps | 157ms
+  - 02 | 🇺🇸 美国 | 11.1Mbps | 142ms
+  - 03 | 🇯🇵 日本 | 2.0Mbps | 50ms
+  - 04 | 🇳🇱 荷兰 | 9.5Mbps | 180ms
+  - 05 | 🇺🇸 美国 | 11.2Mbps | 171ms
+  - 06 | 🇳🇱 荷兰 | 6.5Mbps | 153ms
+  - 07 | 🇫🇷 法国 | 5.3Mbps | 153ms
+  - 08 | 🇨🇦 加拿大 | 9.7Mbps | 195ms
+  - 09 | 🇳🇱 荷兰 | 8.1Mbps | 151ms
+  - 10 | 🇨🇦 加拿大 | 8.9Mbps | 195ms
+  - 11 | 🇨🇦 加拿大 | 8.1Mbps | 199ms
+  - 12 | 🇫🇷 法国 | 7.3Mbps | 171ms
+  - 13 | 🇨🇦 加拿大 | 9.1Mbps | 193ms
+  - 14 | 🇨🇦 加拿大 | 8.8Mbps | 196ms
+  - 15 | 🇫🇷 法国 | 8.6Mbps | 160ms
+  - 16 | 🇫🇷 法国 | 7.7Mbps | 153ms
+  - 17 | 🇬🇧 英国 | 7.5Mbps | 154ms
+  - 18 | 🇫🇷 法国 | 6.1Mbps | 152ms
+  - 19 | 🇨🇦 加拿大 | 6.0Mbps | 237ms
+  - 20 | 🇳🇱 荷兰 | 1.2Mbps | 194ms
   - ♻️ 自动选择
 - name: ♻️ 自动选择
   type: url-test
@@ -334,28 +415,28 @@ proxy-groups:
   interval: 600
   tolerance: 80
   proxies:
-  - 01 | 🇯🇵 日本 | 25.0Mbps | 58ms
-  - 02 | 🇰🇷 韩国 | 25.0Mbps | 67ms
-  - 03 | 🇺🇸 美国 | 25.0Mbps | 154ms
-  - 04 | 🇺🇸 美国 | 25.0Mbps | 168ms
-  - 05 | 🇨🇦 加拿大 | 25.0Mbps | 174ms
-  - 06 | 🌐 BE | 25.0Mbps | 177ms
-  - 07 | 🇨🇦 加拿大 | 25.0Mbps | 179ms
-  - 08 | 🇨🇦 加拿大 | 25.0Mbps | 180ms
-  - 09 | 🇨🇦 加拿大 | 25.0Mbps | 184ms
-  - 10 | 🇺🇸 美国 | 25.0Mbps | 184ms
-  - 11 | 🇷🇸 塞尔维亚 | 25.0Mbps | 188ms
-  - 12 | 🇫🇷 法国 | 25.0Mbps | 196ms
-  - 13 | 🇨🇿 捷克 | 25.0Mbps | 199ms
-  - 14 | 🇨🇭 瑞士 | 25.0Mbps | 204ms
-  - 15 | 🇬🇧 英国 | 25.0Mbps | 204ms
-  - 16 | 🇸🇮 斯洛文尼亚 | 25.0Mbps | 206ms
-  - 17 | 🇧🇬 保加利亚 | 25.0Mbps | 208ms
-  - 18 | 🇨🇿 捷克 | 25.0Mbps | 208ms
-  - 19 | 🇦🇹 奥地利 | 25.0Mbps | 209ms
-  - 20 | 🇫🇷 法国 | 25.0Mbps | 210ms
+  - 01 | 🇫🇷 法国 | 12.9Mbps | 157ms
+  - 02 | 🇺🇸 美国 | 11.1Mbps | 142ms
+  - 03 | 🇯🇵 日本 | 2.0Mbps | 50ms
+  - 04 | 🇳🇱 荷兰 | 9.5Mbps | 180ms
+  - 05 | 🇺🇸 美国 | 11.2Mbps | 171ms
+  - 06 | 🇳🇱 荷兰 | 6.5Mbps | 153ms
+  - 07 | 🇫🇷 法国 | 5.3Mbps | 153ms
+  - 08 | 🇨🇦 加拿大 | 9.7Mbps | 195ms
+  - 09 | 🇳🇱 荷兰 | 8.1Mbps | 151ms
+  - 10 | 🇨🇦 加拿大 | 8.9Mbps | 195ms
+  - 11 | 🇨🇦 加拿大 | 8.1Mbps | 199ms
+  - 12 | 🇫🇷 法国 | 7.3Mbps | 171ms
+  - 13 | 🇨🇦 加拿大 | 9.1Mbps | 193ms
+  - 14 | 🇨🇦 加拿大 | 8.8Mbps | 196ms
+  - 15 | 🇫🇷 法国 | 8.6Mbps | 160ms
+  - 16 | 🇫🇷 法国 | 7.7Mbps | 153ms
+  - 17 | 🇬🇧 英国 | 7.5Mbps | 154ms
+  - 18 | 🇫🇷 法国 | 6.1Mbps | 152ms
+  - 19 | 🇨🇦 加拿大 | 6.0Mbps | 237ms
+  - 20 | 🇳🇱 荷兰 | 1.2Mbps | 194ms
 rules:
-- AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
+- AND,((NETWORK,udp),(DST-PORT,443)),REJECT
 - DOMAIN-SUFFIX,telegram.org,🚀 节点选择
 - DOMAIN-SUFFIX,telegram.me,🚀 节点选择
 - DOMAIN-SUFFIX,t.me,🚀 节点选择
