@@ -6,9 +6,39 @@ keep-alive-idle: 15
 keep-alive-interval: 30
 disable-keep-alive: false
 proxies:
-- name: 🇯🇵 日本 | 157.254.198.27:443
+- name: 🇰🇷 韩国 | 47.80.57.116:443
   type: vless
-  server: 157.254.198.27
+  server: 47.80.57.116
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇩🇪 德国 | 57.131.133.223:443
+  type: vless
+  server: 57.131.133.223
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇨🇭 瑞士 | 45.90.59.18:443
+  type: vless
+  server: 45.90.59.18
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -36,54 +66,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 45.63.124.130:443
+- name: 🇦🇹 奥地利 | 152.53.112.170:443
   type: vless
-  server: 45.63.124.130
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇺🇸 美国 | 45.77.190.163:443
-  type: vless
-  server: 45.77.190.163
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇺🇸 美国 | 69.40.207.130:443
-  type: vless
-  server: 69.40.207.130
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇳🇱 荷兰 | 62.60.244.74:443
-  type: vless
-  server: 62.60.244.74
+  server: 152.53.112.170
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -111,9 +96,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇦🇹 奥地利 | 37.235.56.86:443
+- name: 🌐 DK | 45.148.31.204:443
   type: vless
-  server: 37.235.56.86
+  server: 45.148.31.204
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -126,9 +111,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇫🇷 法国 | 54.37.227.89:443
+- name: 🇺🇸 美国 | 69.40.207.130:443
   type: vless
-  server: 54.37.227.89
+  server: 69.40.207.130
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -141,9 +126,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇷🇸 塞尔维亚 | 38.180.100.80:443
+- name: 🇨🇿 捷克 | 37.205.15.169:443
   type: vless
-  server: 38.180.100.80
+  server: 37.205.15.169
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -156,39 +141,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 104.19.159.37:443
+- name: 🇺🇸 美国 | 45.77.190.163:443
   type: vless
-  server: 104.19.159.37
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 104.16.241.229:443
-  type: vless
-  server: 104.16.241.229
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🌐 IS | 138.16.178.169:443
-  type: vless
-  server: 138.16.178.169
+  server: 45.77.190.163
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -231,9 +186,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇨🇭 瑞士 | 45.90.59.18:443
+- name: 🌐 IE | 45.141.234.138:443
   type: vless
-  server: 45.90.59.18
+  server: 45.141.234.138
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -246,9 +201,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🌐 DK | 45.148.31.204:443
+- name: 🌐 IT | 66.245.204.103:443
   type: vless
-  server: 45.148.31.204
+  server: 66.245.204.103
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -261,9 +216,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇩🇪 德国 | 57.131.133.223:443
+- name: 🇦🇹 奥地利 | 37.235.56.86:443
   type: vless
-  server: 57.131.133.223
+  server: 37.235.56.86
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -276,9 +231,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇦🇹 奥地利 | 159.195.112.41:443
+- name: 🇳🇱 荷兰 | 62.60.148.60:443
   type: vless
-  server: 159.195.112.41
+  server: 62.60.148.60
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -291,9 +246,54 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇦🇹 奥地利 | 152.53.112.170:443
+- name: 🇯🇵 日本 | 157.254.198.27:443
   type: vless
-  server: 152.53.112.170
+  server: 157.254.198.27
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇳🇱 荷兰 | 45.133.210.250:443
+  type: vless
+  server: 45.133.210.250
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇸🇪 瑞典 | 51.20.202.203:443
+  type: vless
+  server: 51.20.202.203
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇨🇿 捷克 | 46.28.70.117:443
+  type: vless
+  server: 46.28.70.117
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -311,52 +311,52 @@ proxy-groups:
   type: select
   proxies:
   - 🛡️ 稳定优先
-  - 🇯🇵 日本 | 157.254.198.27:443
+  - 🇰🇷 韩国 | 47.80.57.116:443
+  - 🇩🇪 德国 | 57.131.133.223:443
+  - 🇨🇭 瑞士 | 45.90.59.18:443
   - 🇺🇸 美国 | 45.59.128.171:443
-  - 🇯🇵 日本 | 45.63.124.130:443
-  - 🇺🇸 美国 | 45.77.190.163:443
-  - 🇺🇸 美国 | 69.40.207.130:443
-  - 🇳🇱 荷兰 | 62.60.244.74:443
+  - 🇦🇹 奥地利 | 152.53.112.170:443
   - 🇦🇹 奥地利 | 151.236.8.98:443
-  - 🇦🇹 奥地利 | 37.235.56.86:443
-  - 🇫🇷 法国 | 54.37.227.89:443
-  - 🇷🇸 塞尔维亚 | 38.180.100.80:443
-  - ⚡ CF官方 | 104.19.159.37:443
-  - ⚡ CF官方 | 104.16.241.229:443
-  - 🌐 IS | 138.16.178.169:443
+  - 🌐 DK | 45.148.31.204:443
+  - 🇺🇸 美国 | 69.40.207.130:443
+  - 🇨🇿 捷克 | 37.205.15.169:443
+  - 🇺🇸 美国 | 45.77.190.163:443
   - 🌐 ES | 34.175.202.195:443
   - 🇫🇷 法国 | 37.59.110.94:443
-  - 🇨🇭 瑞士 | 45.90.59.18:443
-  - 🌐 DK | 45.148.31.204:443
-  - 🇩🇪 德国 | 57.131.133.223:443
-  - 🇦🇹 奥地利 | 159.195.112.41:443
-  - 🇦🇹 奥地利 | 152.53.112.170:443
+  - 🌐 IE | 45.141.234.138:443
+  - 🌐 IT | 66.245.204.103:443
+  - 🇦🇹 奥地利 | 37.235.56.86:443
+  - 🇳🇱 荷兰 | 62.60.148.60:443
+  - 🇯🇵 日本 | 157.254.198.27:443
+  - 🇳🇱 荷兰 | 45.133.210.250:443
+  - 🇸🇪 瑞典 | 51.20.202.203:443
+  - 🇨🇿 捷克 | 46.28.70.117:443
 - name: 🛡️ 稳定优先
   type: fallback
   url: https://www.gstatic.com/generate_204
   interval: 600
   lazy: false
   proxies:
-  - 🇯🇵 日本 | 157.254.198.27:443
+  - 🇰🇷 韩国 | 47.80.57.116:443
+  - 🇩🇪 德国 | 57.131.133.223:443
+  - 🇨🇭 瑞士 | 45.90.59.18:443
   - 🇺🇸 美国 | 45.59.128.171:443
-  - 🇯🇵 日本 | 45.63.124.130:443
-  - 🇺🇸 美国 | 45.77.190.163:443
-  - 🇺🇸 美国 | 69.40.207.130:443
-  - 🇳🇱 荷兰 | 62.60.244.74:443
+  - 🇦🇹 奥地利 | 152.53.112.170:443
   - 🇦🇹 奥地利 | 151.236.8.98:443
-  - 🇦🇹 奥地利 | 37.235.56.86:443
-  - 🇫🇷 法国 | 54.37.227.89:443
-  - 🇷🇸 塞尔维亚 | 38.180.100.80:443
-  - ⚡ CF官方 | 104.19.159.37:443
-  - ⚡ CF官方 | 104.16.241.229:443
-  - 🌐 IS | 138.16.178.169:443
+  - 🌐 DK | 45.148.31.204:443
+  - 🇺🇸 美国 | 69.40.207.130:443
+  - 🇨🇿 捷克 | 37.205.15.169:443
+  - 🇺🇸 美国 | 45.77.190.163:443
   - 🌐 ES | 34.175.202.195:443
   - 🇫🇷 法国 | 37.59.110.94:443
-  - 🇨🇭 瑞士 | 45.90.59.18:443
-  - 🌐 DK | 45.148.31.204:443
-  - 🇩🇪 德国 | 57.131.133.223:443
-  - 🇦🇹 奥地利 | 159.195.112.41:443
-  - 🇦🇹 奥地利 | 152.53.112.170:443
+  - 🌐 IE | 45.141.234.138:443
+  - 🌐 IT | 66.245.204.103:443
+  - 🇦🇹 奥地利 | 37.235.56.86:443
+  - 🇳🇱 荷兰 | 62.60.148.60:443
+  - 🇯🇵 日本 | 157.254.198.27:443
+  - 🇳🇱 荷兰 | 45.133.210.250:443
+  - 🇸🇪 瑞典 | 51.20.202.203:443
+  - 🇨🇿 捷克 | 46.28.70.117:443
 rules:
 - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
 - DOMAIN-SUFFIX,telegram.org,🚀 节点选择
