@@ -6,7 +6,7 @@ keep-alive-idle: 15
 keep-alive-interval: 30
 disable-keep-alive: false
 proxies:
-- name: 🌐 ID | 43.174.193.1:443
+- name: 🌐 ID | 43.174.193.1:443 | 2.4M
   type: vless
   server: 43.174.193.1
   port: 443
@@ -21,9 +21,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🌐 FI | 62.60.253.3:443 | 2.4M
+- name: 🇺🇸 美国 | 69.40.207.130:443 | 2.4M
   type: vless
-  server: 62.60.253.3
+  server: 69.40.207.130
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -36,9 +36,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇨🇿 捷克 | 45.151.183.187:443 | 2.4M
+- name: 🇨🇿 捷克 | 46.28.70.117:443 | 2.4M
   type: vless
-  server: 45.151.183.187
+  server: 46.28.70.117
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -66,9 +66,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🌐 DK | 45.153.48.132:443 | 2.4M
+- name: 🌐 MX | 38.213.228.91:443 | 2.4M
   type: vless
-  server: 45.153.48.132
+  server: 38.213.228.91
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -81,9 +81,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🌐 ES | 46.28.71.145:443 | 2.4M
+- name: 🇫🇷 法国 | 51.210.159.218:443 | 2.3M
   type: vless
-  server: 46.28.71.145
+  server: 51.210.159.218
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -96,9 +96,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🌐 AR | 43.174.195.1:443 | 2.4M
+- name: 🇦🇺 澳大利亚 | 158.180.5.171:443 | 2.4M
   type: vless
-  server: 43.174.195.1
+  server: 158.180.5.171
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -111,9 +111,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇨🇦 加拿大 | 158.69.220.24:443 | 2.4M
+- name: 🇨🇭 瑞士 | 45.59.117.171:443 | 2.3M
   type: vless
-  server: 158.69.220.24
+  server: 45.59.117.171
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -126,9 +126,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇦🇺 澳大利亚 | 176.97.68.17:443 | 2.4M
+- name: 🌐 BE | 35.210.99.51:443 | 2.4M
   type: vless
-  server: 176.97.68.17
+  server: 35.210.99.51
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -141,9 +141,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇦🇹 奥地利 | 151.236.8.98:443 | 2.3M
+- name: 🇦🇺 澳大利亚 | 125.7.24.251:443 | 2.4M
   type: vless
-  server: 151.236.8.98
+  server: 125.7.24.251
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -156,9 +156,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 104.17.181.131:443 | 2.4M
+- name: 🇦🇺 澳大利亚 | 152.67.126.254:443 | 2.4M
   type: vless
-  server: 104.17.181.131
+  server: 152.67.126.254
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -171,9 +171,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 104.20.255.53:443 | 2.4M
+- name: 🌐 BE | 35.241.172.224:443 | 2.4M
   type: vless
-  server: 104.20.255.53
+  server: 35.241.172.224
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -186,9 +186,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 104.16.232.223:443 | 2.4M
+- name: 🇨🇦 加拿大 | 152.42.146.174:443 | 2.4M
   type: vless
-  server: 104.16.232.223
+  server: 152.42.146.174
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -201,9 +201,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 190.93.246.67:443 | 2.4M
+- name: 🇨🇭 瑞士 | 45.59.125.193:443 | 2.4M
   type: vless
-  server: 190.93.246.67
+  server: 45.59.125.193
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -216,9 +216,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 104.19.56.79:443 | 2.4M
+- name: 🌐 PL | 70.34.243.123:443 | 2.3M
   type: vless
-  server: 104.19.56.79
+  server: 70.34.243.123
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -231,9 +231,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 198.41.212.130:443 | 2.4M
+- name: 🇸🇪 瑞典 | 62.182.198.178:443 | 2.4M
   type: vless
-  server: 198.41.212.130
+  server: 62.182.198.178
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -246,9 +246,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 104.16.148.164:443 | 2.4M
+- name: 🇨🇦 加拿大 | 70.79.240.221:443 | 2.4M
   type: vless
-  server: 104.16.148.164
+  server: 70.79.240.221
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -261,9 +261,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 188.114.97.144:443 | 2.4M
+- name: 🌐 ES | 35.42.169.95:443 | 2.3M
   type: vless
-  server: 188.114.97.144
+  server: 35.42.169.95
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -276,9 +276,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 104.17.49.4:443 | 2.4M
+- name: 🇸🇪 瑞典 | 62.182.192.195:443 | 2.3M
   type: vless
-  server: 104.17.49.4
+  server: 62.182.192.195
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -291,9 +291,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: ⚡ CF官方 | 104.17.170.188:443 | 2.4M
+- name: 🇨🇦 加拿大 | 45.133.17.106:443 | 2.4M
   type: vless
-  server: 104.17.170.188
+  server: 45.133.17.106
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -307,113 +307,82 @@ proxies:
     headers:
       Host: edt2.814600117.ccwu.cc
 proxy-groups:
-- name: 🚀 节点选择
-  type: select
-  proxies:
-  - ⚡ 自动选择
-  - 🛡️ 稳定优先
-  - 🌐 ID | 43.174.193.1:443
-  - 🌐 FI | 62.60.253.3:443 | 2.4M
-  - 🇨🇿 捷克 | 45.151.183.187:443 | 2.4M
-  - 🇨🇦 加拿大 | 65.49.232.101:443 | 2.4M
-  - 🌐 DK | 45.153.48.132:443 | 2.4M
-  - 🌐 ES | 46.28.71.145:443 | 2.4M
-  - 🌐 AR | 43.174.195.1:443 | 2.4M
-  - 🇨🇦 加拿大 | 158.69.220.24:443 | 2.4M
-  - 🇦🇺 澳大利亚 | 176.97.68.17:443 | 2.4M
-  - 🇦🇹 奥地利 | 151.236.8.98:443 | 2.3M
-  - ⚡ CF官方 | 104.17.181.131:443 | 2.4M
-  - ⚡ CF官方 | 104.20.255.53:443 | 2.4M
-  - ⚡ CF官方 | 104.16.232.223:443 | 2.4M
-  - ⚡ CF官方 | 190.93.246.67:443 | 2.4M
-  - ⚡ CF官方 | 104.19.56.79:443 | 2.4M
-  - ⚡ CF官方 | 198.41.212.130:443 | 2.4M
-  - ⚡ CF官方 | 104.16.148.164:443 | 2.4M
-  - ⚡ CF官方 | 188.114.97.144:443 | 2.4M
-  - ⚡ CF官方 | 104.17.49.4:443 | 2.4M
-  - ⚡ CF官方 | 104.17.170.188:443 | 2.4M
-- name: ⚡ 自动选择
+- name: 🚀 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
   interval: 600
   tolerance: 80
   lazy: false
-  proxies: &id001
-  - 🌐 ID | 43.174.193.1:443
-  - 🌐 FI | 62.60.253.3:443 | 2.4M
-  - 🇨🇿 捷克 | 45.151.183.187:443 | 2.4M
+  proxies:
+  - 🌐 ID | 43.174.193.1:443 | 2.4M
+  - 🇺🇸 美国 | 69.40.207.130:443 | 2.4M
+  - 🇨🇿 捷克 | 46.28.70.117:443 | 2.4M
   - 🇨🇦 加拿大 | 65.49.232.101:443 | 2.4M
-  - 🌐 DK | 45.153.48.132:443 | 2.4M
-  - 🌐 ES | 46.28.71.145:443 | 2.4M
-  - 🌐 AR | 43.174.195.1:443 | 2.4M
-  - 🇨🇦 加拿大 | 158.69.220.24:443 | 2.4M
-  - 🇦🇺 澳大利亚 | 176.97.68.17:443 | 2.4M
-  - 🇦🇹 奥地利 | 151.236.8.98:443 | 2.3M
-  - ⚡ CF官方 | 104.17.181.131:443 | 2.4M
-  - ⚡ CF官方 | 104.20.255.53:443 | 2.4M
-  - ⚡ CF官方 | 104.16.232.223:443 | 2.4M
-  - ⚡ CF官方 | 190.93.246.67:443 | 2.4M
-  - ⚡ CF官方 | 104.19.56.79:443 | 2.4M
-  - ⚡ CF官方 | 198.41.212.130:443 | 2.4M
-  - ⚡ CF官方 | 104.16.148.164:443 | 2.4M
-  - ⚡ CF官方 | 188.114.97.144:443 | 2.4M
-  - ⚡ CF官方 | 104.17.49.4:443 | 2.4M
-  - ⚡ CF官方 | 104.17.170.188:443 | 2.4M
-- name: 🛡️ 稳定优先
-  type: fallback
-  url: https://www.gstatic.com/generate_204
-  interval: 600
-  lazy: false
-  proxies: *id001
+  - 🌐 MX | 38.213.228.91:443 | 2.4M
+  - 🇫🇷 法国 | 51.210.159.218:443 | 2.3M
+  - 🇦🇺 澳大利亚 | 158.180.5.171:443 | 2.4M
+  - 🇨🇭 瑞士 | 45.59.117.171:443 | 2.3M
+  - 🌐 BE | 35.210.99.51:443 | 2.4M
+  - 🇦🇺 澳大利亚 | 125.7.24.251:443 | 2.4M
+  - 🇦🇺 澳大利亚 | 152.67.126.254:443 | 2.4M
+  - 🌐 BE | 35.241.172.224:443 | 2.4M
+  - 🇨🇦 加拿大 | 152.42.146.174:443 | 2.4M
+  - 🇨🇭 瑞士 | 45.59.125.193:443 | 2.4M
+  - 🌐 PL | 70.34.243.123:443 | 2.3M
+  - 🇸🇪 瑞典 | 62.182.198.178:443 | 2.4M
+  - 🇨🇦 加拿大 | 70.79.240.221:443 | 2.4M
+  - 🌐 ES | 35.42.169.95:443 | 2.3M
+  - 🇸🇪 瑞典 | 62.182.192.195:443 | 2.3M
+  - 🇨🇦 加拿大 | 45.133.17.106:443 | 2.4M
 rules:
 - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
-- DOMAIN-SUFFIX,telegram.org,🚀 节点选择
-- DOMAIN-SUFFIX,telegram.me,🚀 节点选择
-- DOMAIN-SUFFIX,t.me,🚀 节点选择
-- DOMAIN-SUFFIX,tdesktop.com,🚀 节点选择
-- DOMAIN-SUFFIX,telesco.pe,🚀 节点选择
-- DOMAIN-SUFFIX,telegra.ph,🚀 节点选择
-- DOMAIN-SUFFIX,telegram.dog,🚀 节点选择
-- DOMAIN-SUFFIX,telegram.space,🚀 节点选择
-- DOMAIN-SUFFIX,tx.me,🚀 节点选择
-- DOMAIN-SUFFIX,usercontent.dev,🚀 节点选择
-- DOMAIN-KEYWORD,telegram,🚀 节点选择
-- IP-CIDR,91.108.4.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,91.108.8.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,91.108.12.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,91.108.16.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,91.108.20.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,91.108.56.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,149.154.160.0/20,🚀 节点选择,no-resolve
-- IP-CIDR,149.154.164.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,149.154.168.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,149.154.172.0/22,🚀 节点选择,no-resolve
-- IP-CIDR,185.76.151.0/24,🚀 节点选择,no-resolve
-- DOMAIN-SUFFIX,twitter.com,🚀 节点选择
-- DOMAIN-SUFFIX,x.com,🚀 节点选择
-- DOMAIN-SUFFIX,twimg.com,🚀 节点选择
-- DOMAIN-SUFFIX,t.co,🚀 节点选择
-- DOMAIN-SUFFIX,twvid.com,🚀 节点选择
-- DOMAIN-SUFFIX,twttr.com,🚀 节点选择
-- DOMAIN-SUFFIX,twttr.net,🚀 节点选择
-- DOMAIN-SUFFIX,twtrdns.net,🚀 节点选择
-- DOMAIN-SUFFIX,ads-twitter.com,🚀 节点选择
-- DOMAIN-SUFFIX,cms-twdigitalassets.com,🚀 节点选择
-- DOMAIN-SUFFIX,periscope.tv,🚀 节点选择
-- DOMAIN-SUFFIX,pscp.tv,🚀 节点选择
-- DOMAIN-KEYWORD,twitter,🚀 节点选择
-- DOMAIN-SUFFIX,openai.com,🚀 节点选择
-- DOMAIN-SUFFIX,chatgpt.com,🚀 节点选择
-- DOMAIN-SUFFIX,oaistatic.com,🚀 节点选择
-- DOMAIN-SUFFIX,oaiusercontent.com,🚀 节点选择
-- DOMAIN-KEYWORD,openai,🚀 节点选择
-- DOMAIN-SUFFIX,gemini.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,bard.google.com,🚀 节点选择
-- DOMAIN-SUFFIX,generativelanguage.googleapis.com,🚀 节点选择
-- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🚀 节点选择
-- DOMAIN-SUFFIX,anthropic.com,🚀 节点选择
-- DOMAIN-SUFFIX,claude.ai,🚀 节点选择
-- DOMAIN-KEYWORD,anthropic,🚀 节点选择
+- DOMAIN-SUFFIX,telegram.org,🚀 自动选择
+- DOMAIN-SUFFIX,telegram.me,🚀 自动选择
+- DOMAIN-SUFFIX,t.me,🚀 自动选择
+- DOMAIN-SUFFIX,tdesktop.com,🚀 自动选择
+- DOMAIN-SUFFIX,telesco.pe,🚀 自动选择
+- DOMAIN-SUFFIX,telegra.ph,🚀 自动选择
+- DOMAIN-SUFFIX,telegram.dog,🚀 自动选择
+- DOMAIN-SUFFIX,telegram.space,🚀 自动选择
+- DOMAIN-SUFFIX,tx.me,🚀 自动选择
+- DOMAIN-SUFFIX,usercontent.dev,🚀 自动选择
+- DOMAIN-KEYWORD,telegram,🚀 自动选择
+- IP-CIDR,91.108.4.0/22,🚀 自动选择,no-resolve
+- IP-CIDR,91.108.8.0/22,🚀 自动选择,no-resolve
+- IP-CIDR,91.108.12.0/22,🚀 自动选择,no-resolve
+- IP-CIDR,91.108.16.0/22,🚀 自动选择,no-resolve
+- IP-CIDR,91.108.20.0/22,🚀 自动选择,no-resolve
+- IP-CIDR,91.108.56.0/22,🚀 自动选择,no-resolve
+- IP-CIDR,149.154.160.0/20,🚀 自动选择,no-resolve
+- IP-CIDR,149.154.164.0/22,🚀 自动选择,no-resolve
+- IP-CIDR,149.154.168.0/22,🚀 自动选择,no-resolve
+- IP-CIDR,149.154.172.0/22,🚀 自动选择,no-resolve
+- IP-CIDR,185.76.151.0/24,🚀 自动选择,no-resolve
+- DOMAIN-SUFFIX,twitter.com,🚀 自动选择
+- DOMAIN-SUFFIX,x.com,🚀 自动选择
+- DOMAIN-SUFFIX,twimg.com,🚀 自动选择
+- DOMAIN-SUFFIX,t.co,🚀 自动选择
+- DOMAIN-SUFFIX,twvid.com,🚀 自动选择
+- DOMAIN-SUFFIX,twttr.com,🚀 自动选择
+- DOMAIN-SUFFIX,twttr.net,🚀 自动选择
+- DOMAIN-SUFFIX,twtrdns.net,🚀 自动选择
+- DOMAIN-SUFFIX,ads-twitter.com,🚀 自动选择
+- DOMAIN-SUFFIX,cms-twdigitalassets.com,🚀 自动选择
+- DOMAIN-SUFFIX,periscope.tv,🚀 自动选择
+- DOMAIN-SUFFIX,pscp.tv,🚀 自动选择
+- DOMAIN-KEYWORD,twitter,🚀 自动选择
+- DOMAIN-SUFFIX,openai.com,🚀 自动选择
+- DOMAIN-SUFFIX,chatgpt.com,🚀 自动选择
+- DOMAIN-SUFFIX,oaistatic.com,🚀 自动选择
+- DOMAIN-SUFFIX,oaiusercontent.com,🚀 自动选择
+- DOMAIN-KEYWORD,openai,🚀 自动选择
+- DOMAIN-SUFFIX,gemini.google.com,🚀 自动选择
+- DOMAIN-SUFFIX,bard.google.com,🚀 自动选择
+- DOMAIN-SUFFIX,generativelanguage.googleapis.com,🚀 自动选择
+- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🚀 自动选择
+- DOMAIN-SUFFIX,anthropic.com,🚀 自动选择
+- DOMAIN-SUFFIX,claude.ai,🚀 自动选择
+- DOMAIN-KEYWORD,anthropic,🚀 自动选择
 - GEOIP,LAN,DIRECT,no-resolve
 - GEOIP,CN,DIRECT,no-resolve
-- MATCH,🚀 节点选择
+- MATCH,🚀 自动选择
