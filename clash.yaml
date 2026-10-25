@@ -6,9 +6,9 @@ keep-alive-idle: 15
 keep-alive-interval: 30
 disable-keep-alive: false
 proxies:
-- name: 🇸🇬 新加坡 | 161.117.181.127:443 | 39.0M
+- name: 🇯🇵 日本 | 45.66.129.128:443 | 53.2M
   type: vless
-  server: 161.117.181.127
+  server: 45.66.129.128
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -21,9 +21,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 18.181.95.150:443 | 31.1M
+- name: 🇹🇼 台湾 | 104.199.253.40:443 | 55.8M
   type: vless
-  server: 18.181.95.150
+  server: 104.199.253.40
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -36,249 +36,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 13.114.147.6:443 | 32.2M
+- name: 🇯🇵 日本 | 178.239.117.139:8443 | 51.5M
   type: vless
-  server: 13.114.147.6
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 13.192.5.38:443 | 30.5M
-  type: vless
-  server: 13.192.5.38
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 13.230.191.90:443 | 32.7M
-  type: vless
-  server: 13.230.191.90
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 35.72.236.171:443 | 29.9M
-  type: vless
-  server: 35.72.236.171
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 13.158.155.122:443 | 28.6M
-  type: vless
-  server: 13.158.155.122
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 54.150.234.193:443 | 29.3M
-  type: vless
-  server: 54.150.234.193
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 13.193.150.127:443 | 28.3M
-  type: vless
-  server: 13.193.150.127
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 18.180.25.22:443 | 27.7M
-  type: vless
-  server: 18.180.25.22
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇰🇷 韩国 | 158.180.71.35:443 | 26.0M
-  type: vless
-  server: 158.180.71.35
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 35.78.59.40:443 | 24.0M
-  type: vless
-  server: 35.78.59.40
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇰🇷 韩国 | 168.107.62.215:443 | 23.8M
-  type: vless
-  server: 168.107.62.215
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇺🇸 美国 | 47.75.104.211:443 | 24.8M
-  type: vless
-  server: 47.75.104.211
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇺🇸 美国 | 47.75.104.254:443 | 24.6M
-  type: vless
-  server: 47.75.104.254
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇰🇷 韩国 | 168.107.14.10:443 | 21.9M
-  type: vless
-  server: 168.107.14.10
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇰🇷 韩国 | 144.24.64.103:443 | 22.4M
-  type: vless
-  server: 144.24.64.103
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇰🇷 韩国 | 158.179.175.177:443 | 20.4M
-  type: vless
-  server: 158.179.175.177
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 176.34.12.152:8443 | 20.2M
-  type: vless
-  server: 176.34.12.152
+  server: 178.239.117.139
   port: 8443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -291,9 +51,249 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 23.147.232.13:443 | 12.7M
+- name: 🇯🇵 日本 | 45.8.173.15:443 | 51.8M
   type: vless
-  server: 23.147.232.13
+  server: 45.8.173.15
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇹🇼 台湾 | 35.221.193.246:443 | 52.3M
+  type: vless
+  server: 35.221.193.246
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 45.66.129.247:443 | 50.5M
+  type: vless
+  server: 45.66.129.247
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 152.175.34.232:443 | 48.9M
+  type: vless
+  server: 152.175.34.232
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 45.66.129.36:443 | 48.8M
+  type: vless
+  server: 45.66.129.36
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 103.27.187.208:443 | 48.2M
+  type: vless
+  server: 103.27.187.208
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 147.79.20.11:443 | 48.1M
+  type: vless
+  server: 147.79.20.11
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 64.204.49.136:8443 | 46.8M
+  type: vless
+  server: 64.204.49.136
+  port: 8443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 5.34.220.80:443 | 46.8M
+  type: vless
+  server: 5.34.220.80
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 45.192.200.133:443 | 46.5M
+  type: vless
+  server: 45.192.200.133
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 45.8.173.112:443 | 45.6M
+  type: vless
+  server: 45.8.173.112
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 103.76.85.210:443 | 45.6M
+  type: vless
+  server: 103.76.85.210
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 154.83.93.236:8443 | 44.3M
+  type: vless
+  server: 154.83.93.236
+  port: 8443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 45.192.200.133:8443 | 44.4M
+  type: vless
+  server: 45.192.200.133
+  port: 8443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 45.192.242.199:443 | 44.0M
+  type: vless
+  server: 45.192.242.199
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 154.19.187.213:443 | 44.3M
+  type: vless
+  server: 154.19.187.213
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 154.19.187.151:443 | 46.1M
+  type: vless
+  server: 154.19.187.151
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -312,26 +312,26 @@ proxy-groups:
   proxies:
   - ⚡ 自动选择
   - 🏆 速度优先
-  - 🇸🇬 新加坡 | 161.117.181.127:443 | 39.0M
-  - 🇯🇵 日本 | 18.181.95.150:443 | 31.1M
-  - 🇯🇵 日本 | 13.114.147.6:443 | 32.2M
-  - 🇯🇵 日本 | 13.192.5.38:443 | 30.5M
-  - 🇯🇵 日本 | 13.230.191.90:443 | 32.7M
-  - 🇯🇵 日本 | 35.72.236.171:443 | 29.9M
-  - 🇯🇵 日本 | 13.158.155.122:443 | 28.6M
-  - 🇯🇵 日本 | 54.150.234.193:443 | 29.3M
-  - 🇯🇵 日本 | 13.193.150.127:443 | 28.3M
-  - 🇯🇵 日本 | 18.180.25.22:443 | 27.7M
-  - 🇰🇷 韩国 | 158.180.71.35:443 | 26.0M
-  - 🇯🇵 日本 | 35.78.59.40:443 | 24.0M
-  - 🇰🇷 韩国 | 168.107.62.215:443 | 23.8M
-  - 🇺🇸 美国 | 47.75.104.211:443 | 24.8M
-  - 🇺🇸 美国 | 47.75.104.254:443 | 24.6M
-  - 🇰🇷 韩国 | 168.107.14.10:443 | 21.9M
-  - 🇰🇷 韩国 | 144.24.64.103:443 | 22.4M
-  - 🇰🇷 韩国 | 158.179.175.177:443 | 20.4M
-  - 🇯🇵 日本 | 176.34.12.152:8443 | 20.2M
-  - 🇯🇵 日本 | 23.147.232.13:443 | 12.7M
+  - 🇯🇵 日本 | 45.66.129.128:443 | 53.2M
+  - 🇹🇼 台湾 | 104.199.253.40:443 | 55.8M
+  - 🇯🇵 日本 | 178.239.117.139:8443 | 51.5M
+  - 🇯🇵 日本 | 45.8.173.15:443 | 51.8M
+  - 🇹🇼 台湾 | 35.221.193.246:443 | 52.3M
+  - 🇯🇵 日本 | 45.66.129.247:443 | 50.5M
+  - 🇯🇵 日本 | 152.175.34.232:443 | 48.9M
+  - 🇯🇵 日本 | 45.66.129.36:443 | 48.8M
+  - 🇯🇵 日本 | 103.27.187.208:443 | 48.2M
+  - 🇯🇵 日本 | 147.79.20.11:443 | 48.1M
+  - 🇯🇵 日本 | 64.204.49.136:8443 | 46.8M
+  - 🇯🇵 日本 | 5.34.220.80:443 | 46.8M
+  - 🇯🇵 日本 | 45.192.200.133:443 | 46.5M
+  - 🇯🇵 日本 | 45.8.173.112:443 | 45.6M
+  - 🇯🇵 日本 | 103.76.85.210:443 | 45.6M
+  - 🇯🇵 日本 | 154.83.93.236:8443 | 44.3M
+  - 🇯🇵 日本 | 45.192.200.133:8443 | 44.4M
+  - 🇯🇵 日本 | 45.192.242.199:443 | 44.0M
+  - 🇯🇵 日本 | 154.19.187.213:443 | 44.3M
+  - 🇯🇵 日本 | 154.19.187.151:443 | 46.1M
 - name: ⚡ 自动选择
   type: url-test
   url: https://www.gstatic.com/generate_204
@@ -339,52 +339,52 @@ proxy-groups:
   tolerance: 80
   lazy: false
   proxies:
-  - 🇸🇬 新加坡 | 161.117.181.127:443 | 39.0M
-  - 🇯🇵 日本 | 18.181.95.150:443 | 31.1M
-  - 🇯🇵 日本 | 13.114.147.6:443 | 32.2M
-  - 🇯🇵 日本 | 13.192.5.38:443 | 30.5M
-  - 🇯🇵 日本 | 13.230.191.90:443 | 32.7M
-  - 🇯🇵 日本 | 35.72.236.171:443 | 29.9M
-  - 🇯🇵 日本 | 13.158.155.122:443 | 28.6M
-  - 🇯🇵 日本 | 54.150.234.193:443 | 29.3M
-  - 🇯🇵 日本 | 13.193.150.127:443 | 28.3M
-  - 🇯🇵 日本 | 18.180.25.22:443 | 27.7M
-  - 🇰🇷 韩国 | 158.180.71.35:443 | 26.0M
-  - 🇯🇵 日本 | 35.78.59.40:443 | 24.0M
-  - 🇰🇷 韩国 | 168.107.62.215:443 | 23.8M
-  - 🇺🇸 美国 | 47.75.104.211:443 | 24.8M
-  - 🇺🇸 美国 | 47.75.104.254:443 | 24.6M
-  - 🇰🇷 韩国 | 168.107.14.10:443 | 21.9M
-  - 🇰🇷 韩国 | 144.24.64.103:443 | 22.4M
-  - 🇰🇷 韩国 | 158.179.175.177:443 | 20.4M
-  - 🇯🇵 日本 | 176.34.12.152:8443 | 20.2M
-  - 🇯🇵 日本 | 23.147.232.13:443 | 12.7M
+  - 🇯🇵 日本 | 45.66.129.128:443 | 53.2M
+  - 🇹🇼 台湾 | 104.199.253.40:443 | 55.8M
+  - 🇯🇵 日本 | 178.239.117.139:8443 | 51.5M
+  - 🇯🇵 日本 | 45.8.173.15:443 | 51.8M
+  - 🇹🇼 台湾 | 35.221.193.246:443 | 52.3M
+  - 🇯🇵 日本 | 45.66.129.247:443 | 50.5M
+  - 🇯🇵 日本 | 152.175.34.232:443 | 48.9M
+  - 🇯🇵 日本 | 45.66.129.36:443 | 48.8M
+  - 🇯🇵 日本 | 103.27.187.208:443 | 48.2M
+  - 🇯🇵 日本 | 147.79.20.11:443 | 48.1M
+  - 🇯🇵 日本 | 64.204.49.136:8443 | 46.8M
+  - 🇯🇵 日本 | 5.34.220.80:443 | 46.8M
+  - 🇯🇵 日本 | 45.192.200.133:443 | 46.5M
+  - 🇯🇵 日本 | 45.8.173.112:443 | 45.6M
+  - 🇯🇵 日本 | 103.76.85.210:443 | 45.6M
+  - 🇯🇵 日本 | 154.83.93.236:8443 | 44.3M
+  - 🇯🇵 日本 | 45.192.200.133:8443 | 44.4M
+  - 🇯🇵 日本 | 45.192.242.199:443 | 44.0M
+  - 🇯🇵 日本 | 154.19.187.213:443 | 44.3M
+  - 🇯🇵 日本 | 154.19.187.151:443 | 46.1M
 - name: 🏆 速度优先
   type: fallback
   url: https://www.gstatic.com/generate_204
   interval: 600
   lazy: false
   proxies:
-  - 🇸🇬 新加坡 | 161.117.181.127:443 | 39.0M
-  - 🇯🇵 日本 | 18.181.95.150:443 | 31.1M
-  - 🇯🇵 日本 | 13.114.147.6:443 | 32.2M
-  - 🇯🇵 日本 | 13.192.5.38:443 | 30.5M
-  - 🇯🇵 日本 | 13.230.191.90:443 | 32.7M
-  - 🇯🇵 日本 | 35.72.236.171:443 | 29.9M
-  - 🇯🇵 日本 | 13.158.155.122:443 | 28.6M
-  - 🇯🇵 日本 | 54.150.234.193:443 | 29.3M
-  - 🇯🇵 日本 | 13.193.150.127:443 | 28.3M
-  - 🇯🇵 日本 | 18.180.25.22:443 | 27.7M
-  - 🇰🇷 韩国 | 158.180.71.35:443 | 26.0M
-  - 🇯🇵 日本 | 35.78.59.40:443 | 24.0M
-  - 🇰🇷 韩国 | 168.107.62.215:443 | 23.8M
-  - 🇺🇸 美国 | 47.75.104.211:443 | 24.8M
-  - 🇺🇸 美国 | 47.75.104.254:443 | 24.6M
-  - 🇰🇷 韩国 | 168.107.14.10:443 | 21.9M
-  - 🇰🇷 韩国 | 144.24.64.103:443 | 22.4M
-  - 🇰🇷 韩国 | 158.179.175.177:443 | 20.4M
-  - 🇯🇵 日本 | 176.34.12.152:8443 | 20.2M
-  - 🇯🇵 日本 | 23.147.232.13:443 | 12.7M
+  - 🇯🇵 日本 | 45.66.129.128:443 | 53.2M
+  - 🇹🇼 台湾 | 104.199.253.40:443 | 55.8M
+  - 🇯🇵 日本 | 178.239.117.139:8443 | 51.5M
+  - 🇯🇵 日本 | 45.8.173.15:443 | 51.8M
+  - 🇹🇼 台湾 | 35.221.193.246:443 | 52.3M
+  - 🇯🇵 日本 | 45.66.129.247:443 | 50.5M
+  - 🇯🇵 日本 | 152.175.34.232:443 | 48.9M
+  - 🇯🇵 日本 | 45.66.129.36:443 | 48.8M
+  - 🇯🇵 日本 | 103.27.187.208:443 | 48.2M
+  - 🇯🇵 日本 | 147.79.20.11:443 | 48.1M
+  - 🇯🇵 日本 | 64.204.49.136:8443 | 46.8M
+  - 🇯🇵 日本 | 5.34.220.80:443 | 46.8M
+  - 🇯🇵 日本 | 45.192.200.133:443 | 46.5M
+  - 🇯🇵 日本 | 45.8.173.112:443 | 45.6M
+  - 🇯🇵 日本 | 103.76.85.210:443 | 45.6M
+  - 🇯🇵 日本 | 154.83.93.236:8443 | 44.3M
+  - 🇯🇵 日本 | 45.192.200.133:8443 | 44.4M
+  - 🇯🇵 日本 | 45.192.242.199:443 | 44.0M
+  - 🇯🇵 日本 | 154.19.187.213:443 | 44.3M
+  - 🇯🇵 日本 | 154.19.187.151:443 | 46.1M
 rules:
 - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
 - DOMAIN-SUFFIX,telegram.org,🚀 节点选择
