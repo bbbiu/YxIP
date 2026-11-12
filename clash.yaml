@@ -8,127 +8,7 @@ unified-delay: true
 tcp-concurrent: false
 external-controller: 127.0.0.1:9090
 proxies:
-- name: 🇸🇬 新加坡 | 13.250.70.157:443 | 43.9M
-  type: vless
-  server: 13.250.70.157
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇸🇬 新加坡 | 56.69.208.131:443 | 40.0M
-  type: vless
-  server: 56.69.208.131
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇸🇬 新加坡 | 56.69.220.234:443 | 37.5M
-  type: vless
-  server: 56.69.220.234
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇸🇬 新加坡 | 43.217.57.234:443 | 37.9M
-  type: vless
-  server: 43.217.57.234
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 142.248.137.22:443 | 32.3M
-  type: vless
-  server: 142.248.137.22
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇰🇷 韩国 | 114.204.40.185:443 | 24.7M
-  type: vless
-  server: 114.204.40.185
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 13.115.2.242:443 | 27.7M
-  type: vless
-  server: 13.115.2.242
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇯🇵 日本 | 57.181.30.109:443 | 21.3M
-  type: vless
-  server: 57.181.30.109
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇰🇷 韩国 | 136.0.246.121:443 | 19.8M
+- name: 🇰🇷 韩国 | 136.0.246.121:443 | 20.3M
   type: vless
   server: 136.0.246.121
   port: 443
@@ -143,9 +23,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇰🇷 韩国 | 15.164.118.107:443 | 20.2M
+- name: 🇦🇺 澳大利亚 | 103.136.146.169:443 | 14.3M
   type: vless
-  server: 15.164.118.107
+  server: 103.136.146.169
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -158,9 +38,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇺🇸 美国 | 179.253.255.159:443 | 18.4M
+- name: 🇺🇸 美国 | 131.143.181.56:443 | 16.7M
   type: vless
-  server: 179.253.255.159
+  server: 131.143.181.56
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -173,9 +53,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇺🇸 美国 | 131.143.181.80:443 | 17.8M
+- name: 🇺🇸 美国 | 131.143.180.153:443 | 15.4M
   type: vless
-  server: 131.143.181.80
+  server: 131.143.180.153
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -188,9 +68,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇺🇸 美国 | 179.253.251.34:443 | 17.5M
+- name: 🇺🇸 美国 | 179.255.141.10:443 | 15.4M
   type: vless
-  server: 179.253.251.34
+  server: 179.255.141.10
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -203,9 +83,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇺🇸 美国 | 67.230.184.129:443 | 16.8M
+- name: 🇺🇸 美国 | 131.143.180.138:443 | 15.0M
   type: vless
-  server: 67.230.184.129
+  server: 131.143.180.138
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -218,9 +98,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇺🇸 美国 | 179.255.133.39:443 | 18.3M
+- name: 🇺🇸 美国 | 23.246.154.185:443 | 13.9M
   type: vless
-  server: 179.255.133.39
+  server: 23.246.154.185
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -233,7 +113,22 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇨🇭 瑞士 | 185.167.234.169:443 | 15.6M
+- name: 🇺🇸 美国 | 23.246.154.185:8443 | 14.2M
+  type: vless
+  server: 23.246.154.185
+  port: 8443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇨🇭 瑞士 | 185.167.234.169:443 | 8.4M
   type: vless
   server: 185.167.234.169
   port: 443
@@ -248,9 +143,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇺🇸 美国 | 179.255.137.148:443 | 18.0M
+- name: 🇨🇭 瑞士 | 199.68.196.203:443 | 8.7M
   type: vless
-  server: 179.255.137.148
+  server: 199.68.196.203
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -263,9 +158,9 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇨🇭 瑞士 | 185.167.234.192:443 | 15.0M
+- name: 🇹🇼 台湾 | 140.115.53.51:443 | 5.8M
   type: vless
-  server: 185.167.234.192
+  server: 140.115.53.51
   port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
@@ -278,25 +173,130 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇨🇦 加拿大 | 149.248.52.13:443 | 8.8M
+- name: 🇬🇧 英国 | 109.238.86.129:8443 | 9.0M
   type: vless
-  server: 149.248.52.13
-  port: 443
-  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
-  udp: true
-  tls: true
-  client-fingerprint: chrome
-  servername: edt2.814600117.ccwu.cc
-  skip-cert-verify: false
-  network: ws
-  ws-opts:
-    path: /?ed=2048
-    headers:
-      Host: edt2.814600117.ccwu.cc
-- name: 🇨🇦 加拿大 | 24.109.36.190:8443 | 4.5M
-  type: vless
-  server: 24.109.36.190
+  server: 109.238.86.129
   port: 8443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇬🇧 英国 | 185.169.234.175:443 | 8.8M
+  type: vless
+  server: 185.169.234.175
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 103.68.223.47:443 | 3.7M
+  type: vless
+  server: 103.68.223.47
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇬🇧 英国 | 166.88.54.20:443 | 7.6M
+  type: vless
+  server: 166.88.54.20
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 177.2.187.28:443 | 3.7M
+  type: vless
+  server: 177.2.187.28
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🌐 SC | 45.129.126.177:443 | 4.6M
+  type: vless
+  server: 45.129.126.177
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 103.238.129.130:443 | 2.6M
+  type: vless
+  server: 103.238.129.130
+  port: 443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇬🇧 英国 | 158.220.82.148:8443 | 2.8M
+  type: vless
+  server: 158.220.82.148
+  port: 8443
+  uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
+  udp: true
+  tls: true
+  client-fingerprint: chrome
+  servername: edt2.814600117.ccwu.cc
+  skip-cert-verify: false
+  network: ws
+  ws-opts:
+    path: /?ed=2048
+    headers:
+      Host: edt2.814600117.ccwu.cc
+- name: 🇯🇵 日本 | 154.19.187.5:443 | 2.0M
+  type: vless
+  server: 154.19.187.5
+  port: 443
   uuid: b2f3f8a6-f942-4ec6-82b6-2fd5d9b594df
   udp: true
   tls: true
@@ -315,26 +315,26 @@ proxy-groups:
   - ⚡ 自动选择
   - ⚡ 亚太极速
   - DIRECT
-  - 🇸🇬 新加坡 | 13.250.70.157:443 | 43.9M
-  - 🇸🇬 新加坡 | 56.69.208.131:443 | 40.0M
-  - 🇸🇬 新加坡 | 56.69.220.234:443 | 37.5M
-  - 🇸🇬 新加坡 | 43.217.57.234:443 | 37.9M
-  - 🇯🇵 日本 | 142.248.137.22:443 | 32.3M
-  - 🇰🇷 韩国 | 114.204.40.185:443 | 24.7M
-  - 🇯🇵 日本 | 13.115.2.242:443 | 27.7M
-  - 🇯🇵 日本 | 57.181.30.109:443 | 21.3M
-  - 🇰🇷 韩国 | 136.0.246.121:443 | 19.8M
-  - 🇰🇷 韩国 | 15.164.118.107:443 | 20.2M
-  - 🇺🇸 美国 | 179.253.255.159:443 | 18.4M
-  - 🇺🇸 美国 | 131.143.181.80:443 | 17.8M
-  - 🇺🇸 美国 | 179.253.251.34:443 | 17.5M
-  - 🇺🇸 美国 | 67.230.184.129:443 | 16.8M
-  - 🇺🇸 美国 | 179.255.133.39:443 | 18.3M
-  - 🇨🇭 瑞士 | 185.167.234.169:443 | 15.6M
-  - 🇺🇸 美国 | 179.255.137.148:443 | 18.0M
-  - 🇨🇭 瑞士 | 185.167.234.192:443 | 15.0M
-  - 🇨🇦 加拿大 | 149.248.52.13:443 | 8.8M
-  - 🇨🇦 加拿大 | 24.109.36.190:8443 | 4.5M
+  - 🇰🇷 韩国 | 136.0.246.121:443 | 20.3M
+  - 🇦🇺 澳大利亚 | 103.136.146.169:443 | 14.3M
+  - 🇺🇸 美国 | 131.143.181.56:443 | 16.7M
+  - 🇺🇸 美国 | 131.143.180.153:443 | 15.4M
+  - 🇺🇸 美国 | 179.255.141.10:443 | 15.4M
+  - 🇺🇸 美国 | 131.143.180.138:443 | 15.0M
+  - 🇺🇸 美国 | 23.246.154.185:443 | 13.9M
+  - 🇺🇸 美国 | 23.246.154.185:8443 | 14.2M
+  - 🇨🇭 瑞士 | 185.167.234.169:443 | 8.4M
+  - 🇨🇭 瑞士 | 199.68.196.203:443 | 8.7M
+  - 🇹🇼 台湾 | 140.115.53.51:443 | 5.8M
+  - 🇬🇧 英国 | 109.238.86.129:8443 | 9.0M
+  - 🇬🇧 英国 | 185.169.234.175:443 | 8.8M
+  - 🇯🇵 日本 | 103.68.223.47:443 | 3.7M
+  - 🇬🇧 英国 | 166.88.54.20:443 | 7.6M
+  - 🇯🇵 日本 | 177.2.187.28:443 | 3.7M
+  - 🌐 SC | 45.129.126.177:443 | 4.6M
+  - 🇯🇵 日本 | 103.238.129.130:443 | 2.6M
+  - 🇬🇧 英国 | 158.220.82.148:8443 | 2.8M
+  - 🇯🇵 日本 | 154.19.187.5:443 | 2.0M
 - name: ⚡ 自动选择
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -343,26 +343,26 @@ proxy-groups:
   timeout: 1800
   lazy: false
   proxies:
-  - 🇸🇬 新加坡 | 13.250.70.157:443 | 43.9M
-  - 🇸🇬 新加坡 | 56.69.208.131:443 | 40.0M
-  - 🇸🇬 新加坡 | 56.69.220.234:443 | 37.5M
-  - 🇸🇬 新加坡 | 43.217.57.234:443 | 37.9M
-  - 🇯🇵 日本 | 142.248.137.22:443 | 32.3M
-  - 🇰🇷 韩国 | 114.204.40.185:443 | 24.7M
-  - 🇯🇵 日本 | 13.115.2.242:443 | 27.7M
-  - 🇯🇵 日本 | 57.181.30.109:443 | 21.3M
-  - 🇰🇷 韩国 | 136.0.246.121:443 | 19.8M
-  - 🇰🇷 韩国 | 15.164.118.107:443 | 20.2M
-  - 🇺🇸 美国 | 179.253.255.159:443 | 18.4M
-  - 🇺🇸 美国 | 131.143.181.80:443 | 17.8M
-  - 🇺🇸 美国 | 179.253.251.34:443 | 17.5M
-  - 🇺🇸 美国 | 67.230.184.129:443 | 16.8M
-  - 🇺🇸 美国 | 179.255.133.39:443 | 18.3M
-  - 🇨🇭 瑞士 | 185.167.234.169:443 | 15.6M
-  - 🇺🇸 美国 | 179.255.137.148:443 | 18.0M
-  - 🇨🇭 瑞士 | 185.167.234.192:443 | 15.0M
-  - 🇨🇦 加拿大 | 149.248.52.13:443 | 8.8M
-  - 🇨🇦 加拿大 | 24.109.36.190:8443 | 4.5M
+  - 🇰🇷 韩国 | 136.0.246.121:443 | 20.3M
+  - 🇦🇺 澳大利亚 | 103.136.146.169:443 | 14.3M
+  - 🇺🇸 美国 | 131.143.181.56:443 | 16.7M
+  - 🇺🇸 美国 | 131.143.180.153:443 | 15.4M
+  - 🇺🇸 美国 | 179.255.141.10:443 | 15.4M
+  - 🇺🇸 美国 | 131.143.180.138:443 | 15.0M
+  - 🇺🇸 美国 | 23.246.154.185:443 | 13.9M
+  - 🇺🇸 美国 | 23.246.154.185:8443 | 14.2M
+  - 🇨🇭 瑞士 | 185.167.234.169:443 | 8.4M
+  - 🇨🇭 瑞士 | 199.68.196.203:443 | 8.7M
+  - 🇹🇼 台湾 | 140.115.53.51:443 | 5.8M
+  - 🇬🇧 英国 | 109.238.86.129:8443 | 9.0M
+  - 🇬🇧 英国 | 185.169.234.175:443 | 8.8M
+  - 🇯🇵 日本 | 103.68.223.47:443 | 3.7M
+  - 🇬🇧 英国 | 166.88.54.20:443 | 7.6M
+  - 🇯🇵 日本 | 177.2.187.28:443 | 3.7M
+  - 🌐 SC | 45.129.126.177:443 | 4.6M
+  - 🇯🇵 日本 | 103.238.129.130:443 | 2.6M
+  - 🇬🇧 英国 | 158.220.82.148:8443 | 2.8M
+  - 🇯🇵 日本 | 154.19.187.5:443 | 2.0M
 - name: ⚡ 亚太极速
   type: url-test
   url: http://www.gstatic.com/generate_204
@@ -371,70 +371,66 @@ proxy-groups:
   timeout: 1800
   lazy: false
   proxies:
-  - 🇸🇬 新加坡 | 13.250.70.157:443 | 43.9M
-  - 🇸🇬 新加坡 | 56.69.208.131:443 | 40.0M
-  - 🇸🇬 新加坡 | 56.69.220.234:443 | 37.5M
-  - 🇸🇬 新加坡 | 43.217.57.234:443 | 37.9M
-  - 🇯🇵 日本 | 142.248.137.22:443 | 32.3M
-  - 🇰🇷 韩国 | 114.204.40.185:443 | 24.7M
-  - 🇯🇵 日本 | 13.115.2.242:443 | 27.7M
-  - 🇯🇵 日本 | 57.181.30.109:443 | 21.3M
-  - 🇰🇷 韩国 | 136.0.246.121:443 | 19.8M
-  - 🇰🇷 韩国 | 15.164.118.107:443 | 20.2M
+  - 🇰🇷 韩国 | 136.0.246.121:443 | 20.3M
+  - 🇹🇼 台湾 | 140.115.53.51:443 | 5.8M
+  - 🇯🇵 日本 | 103.68.223.47:443 | 3.7M
+  - 🇯🇵 日本 | 177.2.187.28:443 | 3.7M
+  - 🇯🇵 日本 | 103.238.129.130:443 | 2.6M
+  - 🇯🇵 日本 | 154.19.187.5:443 | 2.0M
 - name: 🤖 智能 AI
   type: select
   proxies:
   - ⚡ AI 自动优选
   - 🚀 节点选择
   - DIRECT
-  - 🇸🇬 新加坡 | 13.250.70.157:443 | 43.9M
-  - 🇸🇬 新加坡 | 56.69.208.131:443 | 40.0M
-  - 🇸🇬 新加坡 | 56.69.220.234:443 | 37.5M
-  - 🇸🇬 新加坡 | 43.217.57.234:443 | 37.9M
-  - 🇯🇵 日本 | 142.248.137.22:443 | 32.3M
-  - 🇰🇷 韩国 | 114.204.40.185:443 | 24.7M
-  - 🇯🇵 日本 | 13.115.2.242:443 | 27.7M
-  - 🇯🇵 日本 | 57.181.30.109:443 | 21.3M
-  - 🇰🇷 韩国 | 136.0.246.121:443 | 19.8M
-  - 🇰🇷 韩国 | 15.164.118.107:443 | 20.2M
-  - 🇺🇸 美国 | 179.253.255.159:443 | 18.4M
-  - 🇺🇸 美国 | 131.143.181.80:443 | 17.8M
-  - 🇺🇸 美国 | 179.253.251.34:443 | 17.5M
-  - 🇺🇸 美国 | 67.230.184.129:443 | 16.8M
-  - 🇺🇸 美国 | 179.255.133.39:443 | 18.3M
-  - 🇨🇭 瑞士 | 185.167.234.169:443 | 15.6M
-  - 🇺🇸 美国 | 179.255.137.148:443 | 18.0M
-  - 🇨🇭 瑞士 | 185.167.234.192:443 | 15.0M
-  - 🇨🇦 加拿大 | 149.248.52.13:443 | 8.8M
-  - 🇨🇦 加拿大 | 24.109.36.190:8443 | 4.5M
+  - 🇰🇷 韩国 | 136.0.246.121:443 | 20.3M
+  - 🇦🇺 澳大利亚 | 103.136.146.169:443 | 14.3M
+  - 🇺🇸 美国 | 131.143.181.56:443 | 16.7M
+  - 🇺🇸 美国 | 131.143.180.153:443 | 15.4M
+  - 🇺🇸 美国 | 179.255.141.10:443 | 15.4M
+  - 🇺🇸 美国 | 131.143.180.138:443 | 15.0M
+  - 🇺🇸 美国 | 23.246.154.185:443 | 13.9M
+  - 🇺🇸 美国 | 23.246.154.185:8443 | 14.2M
+  - 🇨🇭 瑞士 | 185.167.234.169:443 | 8.4M
+  - 🇨🇭 瑞士 | 199.68.196.203:443 | 8.7M
+  - 🇹🇼 台湾 | 140.115.53.51:443 | 5.8M
+  - 🇬🇧 英国 | 109.238.86.129:8443 | 9.0M
+  - 🇬🇧 英国 | 185.169.234.175:443 | 8.8M
+  - 🇯🇵 日本 | 103.68.223.47:443 | 3.7M
+  - 🇬🇧 英国 | 166.88.54.20:443 | 7.6M
+  - 🇯🇵 日本 | 177.2.187.28:443 | 3.7M
+  - 🌐 SC | 45.129.126.177:443 | 4.6M
+  - 🇯🇵 日本 | 103.238.129.130:443 | 2.6M
+  - 🇬🇧 英国 | 158.220.82.148:8443 | 2.8M
+  - 🇯🇵 日本 | 154.19.187.5:443 | 2.0M
 - name: ⚡ AI 自动优选
   type: url-test
-  url: https://chatgpt.com
+  url: https://www.google.com/generate_204
   interval: 90
   tolerance: 80
   timeout: 1800
   lazy: false
   proxies:
-  - 🇸🇬 新加坡 | 13.250.70.157:443 | 43.9M
-  - 🇸🇬 新加坡 | 56.69.208.131:443 | 40.0M
-  - 🇸🇬 新加坡 | 56.69.220.234:443 | 37.5M
-  - 🇸🇬 新加坡 | 43.217.57.234:443 | 37.9M
-  - 🇯🇵 日本 | 142.248.137.22:443 | 32.3M
-  - 🇰🇷 韩国 | 114.204.40.185:443 | 24.7M
-  - 🇯🇵 日本 | 13.115.2.242:443 | 27.7M
-  - 🇯🇵 日本 | 57.181.30.109:443 | 21.3M
-  - 🇰🇷 韩国 | 136.0.246.121:443 | 19.8M
-  - 🇰🇷 韩国 | 15.164.118.107:443 | 20.2M
-  - 🇺🇸 美国 | 179.253.255.159:443 | 18.4M
-  - 🇺🇸 美国 | 131.143.181.80:443 | 17.8M
-  - 🇺🇸 美国 | 179.253.251.34:443 | 17.5M
-  - 🇺🇸 美国 | 67.230.184.129:443 | 16.8M
-  - 🇺🇸 美国 | 179.255.133.39:443 | 18.3M
-  - 🇨🇭 瑞士 | 185.167.234.169:443 | 15.6M
-  - 🇺🇸 美国 | 179.255.137.148:443 | 18.0M
-  - 🇨🇭 瑞士 | 185.167.234.192:443 | 15.0M
-  - 🇨🇦 加拿大 | 149.248.52.13:443 | 8.8M
-  - 🇨🇦 加拿大 | 24.109.36.190:8443 | 4.5M
+  - 🇰🇷 韩国 | 136.0.246.121:443 | 20.3M
+  - 🇦🇺 澳大利亚 | 103.136.146.169:443 | 14.3M
+  - 🇺🇸 美国 | 131.143.181.56:443 | 16.7M
+  - 🇺🇸 美国 | 131.143.180.153:443 | 15.4M
+  - 🇺🇸 美国 | 179.255.141.10:443 | 15.4M
+  - 🇺🇸 美国 | 131.143.180.138:443 | 15.0M
+  - 🇺🇸 美国 | 23.246.154.185:443 | 13.9M
+  - 🇺🇸 美国 | 23.246.154.185:8443 | 14.2M
+  - 🇨🇭 瑞士 | 185.167.234.169:443 | 8.4M
+  - 🇨🇭 瑞士 | 199.68.196.203:443 | 8.7M
+  - 🇹🇼 台湾 | 140.115.53.51:443 | 5.8M
+  - 🇬🇧 英国 | 109.238.86.129:8443 | 9.0M
+  - 🇬🇧 英国 | 185.169.234.175:443 | 8.8M
+  - 🇯🇵 日本 | 103.68.223.47:443 | 3.7M
+  - 🇬🇧 英国 | 166.88.54.20:443 | 7.6M
+  - 🇯🇵 日本 | 177.2.187.28:443 | 3.7M
+  - 🌐 SC | 45.129.126.177:443 | 4.6M
+  - 🇯🇵 日本 | 103.238.129.130:443 | 2.6M
+  - 🇬🇧 英国 | 158.220.82.148:8443 | 2.8M
+  - 🇯🇵 日本 | 154.19.187.5:443 | 2.0M
 rules:
 - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
 - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
@@ -488,11 +484,31 @@ rules:
 - DOMAIN-SUFFIX,gemini.google.com,🤖 智能 AI
 - DOMAIN-SUFFIX,bard.google.com,🤖 智能 AI
 - DOMAIN-SUFFIX,generativelanguage.googleapis.com,🤖 智能 AI
+- DOMAIN-SUFFIX,ai.google.dev,🤖 智能 AI
+- DOMAIN-SUFFIX,aistudio.google.com,🤖 智能 AI
+- DOMAIN-SUFFIX,makersuite.google.com,🤖 智能 AI
+- DOMAIN-SUFFIX,deepmind.google,🤖 智能 AI
+- DOMAIN-SUFFIX,deepmind.com,🤖 智能 AI
+- DOMAIN-SUFFIX,generativeai.google,🤖 智能 AI
 - DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com,🤖 智能 AI
 - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🤖 智能 AI
+- DOMAIN-SUFFIX,waa-pa.clients6.google.com,🤖 智能 AI
+- DOMAIN-SUFFIX,accounts.google.com,🤖 智能 AI
+- DOMAIN-SUFFIX,apis.google.com,🤖 智能 AI
+- DOMAIN-SUFFIX,myaccount.google.com,🤖 智能 AI
 - DOMAIN-KEYWORD,gemini,🤖 智能 AI
+- DOMAIN-KEYWORD,generativelanguage,🤖 智能 AI
 - DOMAIN-SUFFIX,anthropic.com,🤖 智能 AI
 - DOMAIN-SUFFIX,claude.ai,🤖 智能 AI
 - DOMAIN-KEYWORD,anthropic,🤖 智能 AI
+- DOMAIN-SUFFIX,google.com,🚀 节点选择
+- DOMAIN-SUFFIX,googleapis.com,🚀 节点选择
+- DOMAIN-SUFFIX,gstatic.com,🚀 节点选择
+- DOMAIN-SUFFIX,googleusercontent.com,🚀 节点选择
+- DOMAIN-SUFFIX,googlevideo.com,🚀 节点选择
+- DOMAIN-SUFFIX,youtube.com,🚀 节点选择
+- DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
+- DOMAIN-SUFFIX,ggpht.com,🚀 节点选择
+- DOMAIN-KEYWORD,google,🚀 节点选择
 - GEOIP,CN,DIRECT,no-resolve
 - MATCH,🚀 节点选择
