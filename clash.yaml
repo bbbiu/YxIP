@@ -309,169 +309,88 @@ proxies:
     headers:
       Host: edt2.814600117.ccwu.cc
 proxy-groups:
-- name: 🚀 节点选择
-  type: select
-  proxies:
-  - ⚡ 自动选择
-  - ⚡ 亚太极速
-  - DIRECT
-  - 🇰🇷 韩国 | 123.111.169.70:443 | 47.8M
-  - 🇯🇵 日本 | 60.130.209.253:443 | 44.2M
-  - 🇰🇷 韩国 | 114.204.40.185:443 | 37.7M
-  - 🇸🇬 新加坡 | 47.131.106.251:443 | 39.5M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 31.5M
-  - 🇺🇸 美国 | 179.253.251.34:443 | 18.7M
-  - 🇺🇸 美国 | 154.21.80.16:443 | 17.3M
-  - 🇺🇸 美国 | 131.143.181.73:443 | 17.4M
-  - 🇨🇭 瑞士 | 185.167.234.192:443 | 17.2M
-  - 🇨🇭 瑞士 | 79.132.141.219:443 | 17.4M
-  - 🇨🇭 瑞士 | 185.234.213.169:443 | 15.9M
-  - 🇺🇸 美国 | 193.17.180.221:443 | 19.2M
-  - 🇸🇬 新加坡 | 18.138.34.221:443 | 9.7M
-  - 🇸🇬 新加坡 | 47.131.155.232:443 | 9.1M
-  - 🇨🇭 瑞士 | 199.68.196.203:443 | 13.6M
-  - 🇬🇧 英国 | 34.39.62.53:443 | 17.5M
-  - 🇸🇬 新加坡 | 161.117.181.127:443 | 6.2M
-  - 🇯🇵 日本 | 202.144.195.135:443 | 5.3M
-  - 🇯🇵 日本 | 45.192.201.197:443 | 5.0M
-  - 🇯🇵 日本 | 177.2.187.28:443 | 3.9M
-- name: ⚡ 自动选择
+- name: ⚡ 低延迟
   type: url-test
   url: http://www.gstatic.com/generate_204
   interval: 180
-  tolerance: 100
+  tolerance: 80
   timeout: 1800
   lazy: true
   proxies:
-  - 🇰🇷 韩国 | 123.111.169.70:443 | 47.8M
+  - 🇯🇵 日本 | 202.144.195.135:443 | 5.3M
+  - 🇯🇵 日本 | 45.192.201.197:443 | 5.0M
   - 🇯🇵 日本 | 60.130.209.253:443 | 44.2M
-  - 🇰🇷 韩国 | 114.204.40.185:443 | 37.7M
-  - 🇸🇬 新加坡 | 47.131.106.251:443 | 39.5M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 31.5M
-  - 🇺🇸 美国 | 179.253.251.34:443 | 18.7M
-  - 🇺🇸 美国 | 154.21.80.16:443 | 17.3M
-  - 🇺🇸 美国 | 131.143.181.73:443 | 17.4M
-  - 🇨🇭 瑞士 | 185.167.234.192:443 | 17.2M
-  - 🇨🇭 瑞士 | 79.132.141.219:443 | 17.4M
-  - 🇨🇭 瑞士 | 185.234.213.169:443 | 15.9M
-  - 🇺🇸 美国 | 193.17.180.221:443 | 19.2M
-  - 🇸🇬 新加坡 | 18.138.34.221:443 | 9.7M
   - 🇸🇬 新加坡 | 47.131.155.232:443 | 9.1M
+  - 🇸🇬 新加坡 | 18.138.34.221:443 | 9.7M
+  - 🇸🇬 新加坡 | 47.131.106.251:443 | 39.5M
+  - 🇰🇷 韩国 | 114.204.40.185:443 | 37.7M
+  - 🇸🇬 新加坡 | 161.117.181.127:443 | 6.2M
+  - 🇰🇷 韩国 | 123.111.169.70:443 | 47.8M
+  - 🇯🇵 日本 | 177.2.187.28:443 | 3.9M
+  - 🇰🇷 韩国 | 183.101.136.209:443 | 31.5M
   - 🇨🇭 瑞士 | 199.68.196.203:443 | 13.6M
+  - 🇺🇸 美国 | 154.21.80.16:443 | 17.3M
+  - 🇺🇸 美国 | 179.253.251.34:443 | 18.7M
+  - 🇺🇸 美国 | 131.143.181.73:443 | 17.4M
+  - 🇺🇸 美国 | 193.17.180.221:443 | 19.2M
+  - 🇨🇭 瑞士 | 185.234.213.169:443 | 15.9M
+  - 🇨🇭 瑞士 | 79.132.141.219:443 | 17.4M
+  - 🇨🇭 瑞士 | 185.167.234.192:443 | 17.2M
   - 🇬🇧 英国 | 34.39.62.53:443 | 17.5M
-  - 🇸🇬 新加坡 | 161.117.181.127:443 | 6.2M
-  - 🇯🇵 日本 | 202.144.195.135:443 | 5.3M
-  - 🇯🇵 日本 | 45.192.201.197:443 | 5.0M
-  - 🇯🇵 日本 | 177.2.187.28:443 | 3.9M
-- name: ⚡ 亚太极速
-  type: url-test
-  url: http://www.gstatic.com/generate_204
-  interval: 180
-  tolerance: 100
-  timeout: 1800
-  lazy: true
-  proxies:
-  - 🇰🇷 韩国 | 123.111.169.70:443 | 47.8M
-  - 🇯🇵 日本 | 60.130.209.253:443 | 44.2M
-  - 🇰🇷 韩国 | 114.204.40.185:443 | 37.7M
-  - 🇸🇬 新加坡 | 47.131.106.251:443 | 39.5M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 31.5M
-  - 🇸🇬 新加坡 | 18.138.34.221:443 | 9.7M
-  - 🇸🇬 新加坡 | 47.131.155.232:443 | 9.1M
-  - 🇸🇬 新加坡 | 161.117.181.127:443 | 6.2M
-  - 🇯🇵 日本 | 202.144.195.135:443 | 5.3M
-  - 🇯🇵 日本 | 45.192.201.197:443 | 5.0M
-  - 🇯🇵 日本 | 177.2.187.28:443 | 3.9M
-- name: ✈️ 电报消息
-  type: select
-  proxies:
-  - ⚡ 电报低延迟
-  - ⚡ 亚太极速
-  - 🚀 节点选择
-  - DIRECT
-  - 🇰🇷 韩国 | 123.111.169.70:443 | 47.8M
-  - 🇯🇵 日本 | 60.130.209.253:443 | 44.2M
-  - 🇰🇷 韩国 | 114.204.40.185:443 | 37.7M
-  - 🇸🇬 新加坡 | 47.131.106.251:443 | 39.5M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 31.5M
-  - 🇸🇬 新加坡 | 18.138.34.221:443 | 9.7M
-  - 🇸🇬 新加坡 | 47.131.155.232:443 | 9.1M
-  - 🇸🇬 新加坡 | 161.117.181.127:443 | 6.2M
-  - 🇯🇵 日本 | 202.144.195.135:443 | 5.3M
-  - 🇯🇵 日本 | 45.192.201.197:443 | 5.0M
-  - 🇯🇵 日本 | 177.2.187.28:443 | 3.9M
-- name: ⚡ 电报低延迟
+- name: 🚀 高速度
   type: fallback
   url: http://www.gstatic.com/generate_204
-  interval: 300
+  interval: 180
   timeout: 2000
   lazy: true
   proxies:
   - 🇰🇷 韩国 | 123.111.169.70:443 | 47.8M
   - 🇯🇵 日本 | 60.130.209.253:443 | 44.2M
-  - 🇰🇷 韩国 | 114.204.40.185:443 | 37.7M
   - 🇸🇬 新加坡 | 47.131.106.251:443 | 39.5M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 31.5M
-  - 🇸🇬 新加坡 | 18.138.34.221:443 | 9.7M
-  - 🇸🇬 新加坡 | 47.131.155.232:443 | 9.1M
-  - 🇸🇬 新加坡 | 161.117.181.127:443 | 6.2M
-  - 🇯🇵 日本 | 202.144.195.135:443 | 5.3M
-  - 🇯🇵 日本 | 45.192.201.197:443 | 5.0M
-  - 🇯🇵 日本 | 177.2.187.28:443 | 3.9M
-- name: 🤖 智能 AI
-  type: select
-  proxies:
-  - ⚡ AI 自动优选
-  - 🚀 节点选择
-  - DIRECT
-  - 🇰🇷 韩国 | 123.111.169.70:443 | 47.8M
-  - 🇯🇵 日本 | 60.130.209.253:443 | 44.2M
   - 🇰🇷 韩国 | 114.204.40.185:443 | 37.7M
-  - 🇸🇬 新加坡 | 47.131.106.251:443 | 39.5M
   - 🇰🇷 韩国 | 183.101.136.209:443 | 31.5M
-  - 🇺🇸 美国 | 179.253.251.34:443 | 18.7M
-  - 🇺🇸 美国 | 154.21.80.16:443 | 17.3M
-  - 🇺🇸 美国 | 131.143.181.73:443 | 17.4M
-  - 🇨🇭 瑞士 | 185.167.234.192:443 | 17.2M
-  - 🇨🇭 瑞士 | 79.132.141.219:443 | 17.4M
-  - 🇨🇭 瑞士 | 185.234.213.169:443 | 15.9M
   - 🇺🇸 美国 | 193.17.180.221:443 | 19.2M
+  - 🇺🇸 美国 | 179.253.251.34:443 | 18.7M
+  - 🇬🇧 英国 | 34.39.62.53:443 | 17.5M
+  - 🇺🇸 美国 | 131.143.181.73:443 | 17.4M
+  - 🇨🇭 瑞士 | 79.132.141.219:443 | 17.4M
+  - 🇺🇸 美国 | 154.21.80.16:443 | 17.3M
+  - 🇨🇭 瑞士 | 185.167.234.192:443 | 17.2M
+  - 🇨🇭 瑞士 | 185.234.213.169:443 | 15.9M
+  - 🇨🇭 瑞士 | 199.68.196.203:443 | 13.6M
   - 🇸🇬 新加坡 | 18.138.34.221:443 | 9.7M
   - 🇸🇬 新加坡 | 47.131.155.232:443 | 9.1M
-  - 🇨🇭 瑞士 | 199.68.196.203:443 | 13.6M
-  - 🇬🇧 英国 | 34.39.62.53:443 | 17.5M
   - 🇸🇬 新加坡 | 161.117.181.127:443 | 6.2M
   - 🇯🇵 日本 | 202.144.195.135:443 | 5.3M
   - 🇯🇵 日本 | 45.192.201.197:443 | 5.0M
   - 🇯🇵 日本 | 177.2.187.28:443 | 3.9M
-- name: ⚡ AI 自动优选
-  type: url-test
+- name: 🤖 AI联通
+  type: fallback
   url: https://www.google.com/generate_204
-  interval: 90
-  tolerance: 80
-  timeout: 1800
-  lazy: false
+  interval: 300
+  timeout: 2000
+  lazy: true
   proxies:
-  - 🇰🇷 韩国 | 123.111.169.70:443 | 47.8M
-  - 🇯🇵 日本 | 60.130.209.253:443 | 44.2M
-  - 🇰🇷 韩国 | 114.204.40.185:443 | 37.7M
-  - 🇸🇬 新加坡 | 47.131.106.251:443 | 39.5M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 31.5M
-  - 🇺🇸 美国 | 179.253.251.34:443 | 18.7M
-  - 🇺🇸 美国 | 154.21.80.16:443 | 17.3M
-  - 🇺🇸 美国 | 131.143.181.73:443 | 17.4M
-  - 🇨🇭 瑞士 | 185.167.234.192:443 | 17.2M
-  - 🇨🇭 瑞士 | 79.132.141.219:443 | 17.4M
-  - 🇨🇭 瑞士 | 185.234.213.169:443 | 15.9M
-  - 🇺🇸 美国 | 193.17.180.221:443 | 19.2M
-  - 🇸🇬 新加坡 | 18.138.34.221:443 | 9.7M
-  - 🇸🇬 新加坡 | 47.131.155.232:443 | 9.1M
-  - 🇨🇭 瑞士 | 199.68.196.203:443 | 13.6M
-  - 🇬🇧 英国 | 34.39.62.53:443 | 17.5M
-  - 🇸🇬 新加坡 | 161.117.181.127:443 | 6.2M
   - 🇯🇵 日本 | 202.144.195.135:443 | 5.3M
   - 🇯🇵 日本 | 45.192.201.197:443 | 5.0M
+  - 🇯🇵 日本 | 60.130.209.253:443 | 44.2M
+  - 🇸🇬 新加坡 | 47.131.155.232:443 | 9.1M
+  - 🇸🇬 新加坡 | 18.138.34.221:443 | 9.7M
+  - 🇸🇬 新加坡 | 47.131.106.251:443 | 39.5M
+  - 🇰🇷 韩国 | 114.204.40.185:443 | 37.7M
+  - 🇸🇬 新加坡 | 161.117.181.127:443 | 6.2M
+  - 🇰🇷 韩国 | 123.111.169.70:443 | 47.8M
   - 🇯🇵 日本 | 177.2.187.28:443 | 3.9M
+  - 🇰🇷 韩国 | 183.101.136.209:443 | 31.5M
+  - 🇨🇭 瑞士 | 199.68.196.203:443 | 13.6M
+  - 🇺🇸 美国 | 154.21.80.16:443 | 17.3M
+  - 🇺🇸 美国 | 179.253.251.34:443 | 18.7M
+  - 🇺🇸 美国 | 131.143.181.73:443 | 17.4M
+  - 🇺🇸 美国 | 193.17.180.221:443 | 19.2M
+  - 🇨🇭 瑞士 | 185.234.213.169:443 | 15.9M
+  - 🇨🇭 瑞士 | 79.132.141.219:443 | 17.4M
+  - 🇨🇭 瑞士 | 185.167.234.192:443 | 17.2M
+  - 🇬🇧 英国 | 34.39.62.53:443 | 17.5M
 rules:
 - IP-CIDR,127.0.0.0/8,DIRECT,no-resolve
 - IP-CIDR,10.0.0.0/8,DIRECT,no-resolve
@@ -481,77 +400,89 @@ rules:
 - IP-CIDR6,::1/128,DIRECT,no-resolve
 - IP-CIDR6,fc00::/7,DIRECT,no-resolve
 - IP-CIDR6,fe80::/10,DIRECT,no-resolve
-- DOMAIN-SUFFIX,telegram.org,✈️ 电报消息
-- DOMAIN-SUFFIX,telegram.me,✈️ 电报消息
-- DOMAIN-SUFFIX,t.me,✈️ 电报消息
-- DOMAIN-SUFFIX,tdesktop.com,✈️ 电报消息
-- DOMAIN-SUFFIX,telesco.pe,✈️ 电报消息
-- DOMAIN-SUFFIX,telegra.ph,✈️ 电报消息
-- DOMAIN-SUFFIX,telegram.dog,✈️ 电报消息
-- DOMAIN-SUFFIX,telegram.space,✈️ 电报消息
-- DOMAIN-SUFFIX,tx.me,✈️ 电报消息
-- DOMAIN-SUFFIX,tg.dev,✈️ 电报消息
-- DOMAIN-SUFFIX,fragment.com,✈️ 电报消息
-- DOMAIN-SUFFIX,usercontent.dev,✈️ 电报消息
-- DOMAIN-KEYWORD,telegram,✈️ 电报消息
-- IP-CIDR,91.108.4.0/22,✈️ 电报消息,no-resolve
-- IP-CIDR,91.108.8.0/22,✈️ 电报消息,no-resolve
-- IP-CIDR,91.108.12.0/22,✈️ 电报消息,no-resolve
-- IP-CIDR,91.108.16.0/22,✈️ 电报消息,no-resolve
-- IP-CIDR,91.108.20.0/22,✈️ 电报消息,no-resolve
-- IP-CIDR,91.108.56.0/22,✈️ 电报消息,no-resolve
-- IP-CIDR,149.154.160.0/20,✈️ 电报消息,no-resolve
-- IP-CIDR,149.154.164.0/22,✈️ 电报消息,no-resolve
-- IP-CIDR,149.154.168.0/22,✈️ 电报消息,no-resolve
-- IP-CIDR,149.154.172.0/22,✈️ 电报消息,no-resolve
-- IP-CIDR,185.76.151.0/24,✈️ 电报消息,no-resolve
+- DOMAIN-SUFFIX,telegram.org,⚡ 低延迟
+- DOMAIN-SUFFIX,telegram.me,⚡ 低延迟
+- DOMAIN-SUFFIX,t.me,⚡ 低延迟
+- DOMAIN-SUFFIX,tdesktop.com,⚡ 低延迟
+- DOMAIN-SUFFIX,telesco.pe,⚡ 低延迟
+- DOMAIN-SUFFIX,telegra.ph,⚡ 低延迟
+- DOMAIN-SUFFIX,telegram.dog,⚡ 低延迟
+- DOMAIN-SUFFIX,telegram.space,⚡ 低延迟
+- DOMAIN-SUFFIX,tx.me,⚡ 低延迟
+- DOMAIN-SUFFIX,tg.dev,⚡ 低延迟
+- DOMAIN-SUFFIX,fragment.com,⚡ 低延迟
+- DOMAIN-SUFFIX,usercontent.dev,⚡ 低延迟
+- DOMAIN-KEYWORD,telegram,⚡ 低延迟
+- IP-CIDR,91.108.4.0/22,⚡ 低延迟,no-resolve
+- IP-CIDR,91.108.8.0/22,⚡ 低延迟,no-resolve
+- IP-CIDR,91.108.12.0/22,⚡ 低延迟,no-resolve
+- IP-CIDR,91.108.16.0/22,⚡ 低延迟,no-resolve
+- IP-CIDR,91.108.20.0/22,⚡ 低延迟,no-resolve
+- IP-CIDR,91.108.56.0/22,⚡ 低延迟,no-resolve
+- IP-CIDR,149.154.160.0/20,⚡ 低延迟,no-resolve
+- IP-CIDR,149.154.164.0/22,⚡ 低延迟,no-resolve
+- IP-CIDR,149.154.168.0/22,⚡ 低延迟,no-resolve
+- IP-CIDR,149.154.172.0/22,⚡ 低延迟,no-resolve
+- IP-CIDR,185.76.151.0/24,⚡ 低延迟,no-resolve
 - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
-- DOMAIN-SUFFIX,twitter.com,🚀 节点选择
-- DOMAIN-SUFFIX,x.com,🚀 节点选择
-- DOMAIN-SUFFIX,twimg.com,🚀 节点选择
-- DOMAIN-SUFFIX,t.co,🚀 节点选择
-- DOMAIN-SUFFIX,twvid.com,🚀 节点选择
-- DOMAIN-SUFFIX,twttr.com,🚀 节点选择
-- DOMAIN-SUFFIX,twttr.net,🚀 节点选择
-- DOMAIN-SUFFIX,twtrdns.net,🚀 节点选择
-- DOMAIN-SUFFIX,ads-twitter.com,🚀 节点选择
-- DOMAIN-SUFFIX,cms-twdigitalassets.com,🚀 节点选择
-- DOMAIN-SUFFIX,periscope.tv,🚀 节点选择
-- DOMAIN-SUFFIX,pscp.tv,🚀 节点选择
-- DOMAIN-KEYWORD,twitter,🚀 节点选择
-- DOMAIN-SUFFIX,openai.com,🤖 智能 AI
-- DOMAIN-SUFFIX,chatgpt.com,🤖 智能 AI
-- DOMAIN-SUFFIX,oaistatic.com,🤖 智能 AI
-- DOMAIN-SUFFIX,oaiusercontent.com,🤖 智能 AI
-- DOMAIN-KEYWORD,openai,🤖 智能 AI
-- DOMAIN-SUFFIX,gemini.google.com,🤖 智能 AI
-- DOMAIN-SUFFIX,bard.google.com,🤖 智能 AI
-- DOMAIN-SUFFIX,generativelanguage.googleapis.com,🤖 智能 AI
-- DOMAIN-SUFFIX,ai.google.dev,🤖 智能 AI
-- DOMAIN-SUFFIX,aistudio.google.com,🤖 智能 AI
-- DOMAIN-SUFFIX,makersuite.google.com,🤖 智能 AI
-- DOMAIN-SUFFIX,deepmind.google,🤖 智能 AI
-- DOMAIN-SUFFIX,deepmind.com,🤖 智能 AI
-- DOMAIN-SUFFIX,generativeai.google,🤖 智能 AI
-- DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com,🤖 智能 AI
-- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🤖 智能 AI
-- DOMAIN-SUFFIX,waa-pa.clients6.google.com,🤖 智能 AI
-- DOMAIN-SUFFIX,accounts.google.com,🤖 智能 AI
-- DOMAIN-SUFFIX,apis.google.com,🤖 智能 AI
-- DOMAIN-SUFFIX,myaccount.google.com,🤖 智能 AI
-- DOMAIN-KEYWORD,gemini,🤖 智能 AI
-- DOMAIN-KEYWORD,generativelanguage,🤖 智能 AI
-- DOMAIN-SUFFIX,anthropic.com,🤖 智能 AI
-- DOMAIN-SUFFIX,claude.ai,🤖 智能 AI
-- DOMAIN-KEYWORD,anthropic,🤖 智能 AI
-- DOMAIN-SUFFIX,google.com,🚀 节点选择
-- DOMAIN-SUFFIX,googleapis.com,🚀 节点选择
-- DOMAIN-SUFFIX,gstatic.com,🚀 节点选择
-- DOMAIN-SUFFIX,googleusercontent.com,🚀 节点选择
-- DOMAIN-SUFFIX,googlevideo.com,🚀 节点选择
-- DOMAIN-SUFFIX,youtube.com,🚀 节点选择
-- DOMAIN-SUFFIX,ytimg.com,🚀 节点选择
-- DOMAIN-SUFFIX,ggpht.com,🚀 节点选择
-- DOMAIN-KEYWORD,google,🚀 节点选择
+- DOMAIN-SUFFIX,openai.com,🤖 AI联通
+- DOMAIN-SUFFIX,chatgpt.com,🤖 AI联通
+- DOMAIN-SUFFIX,oaistatic.com,🤖 AI联通
+- DOMAIN-SUFFIX,oaiusercontent.com,🤖 AI联通
+- DOMAIN-KEYWORD,openai,🤖 AI联通
+- DOMAIN-SUFFIX,gemini.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,bard.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,generativelanguage.googleapis.com,🤖 AI联通
+- DOMAIN-SUFFIX,ai.google.dev,🤖 AI联通
+- DOMAIN-SUFFIX,aistudio.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,makersuite.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,deepmind.google,🤖 AI联通
+- DOMAIN-SUFFIX,deepmind.com,🤖 AI联通
+- DOMAIN-SUFFIX,generativeai.google,🤖 AI联通
+- DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🤖 AI联通
+- DOMAIN-SUFFIX,waa-pa.clients6.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,accounts.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,apis.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,myaccount.google.com,🤖 AI联通
+- DOMAIN-KEYWORD,gemini,🤖 AI联通
+- DOMAIN-KEYWORD,generativelanguage,🤖 AI联通
+- DOMAIN-SUFFIX,anthropic.com,🤖 AI联通
+- DOMAIN-SUFFIX,claude.ai,🤖 AI联通
+- DOMAIN-KEYWORD,anthropic,🤖 AI联通
+- DOMAIN-SUFFIX,youtube.com,🚀 高速度
+- DOMAIN-SUFFIX,googlevideo.com,🚀 高速度
+- DOMAIN-SUFFIX,ytimg.com,🚀 高速度
+- DOMAIN-SUFFIX,ggpht.com,🚀 高速度
+- DOMAIN-SUFFIX,youtu.be,🚀 高速度
+- DOMAIN-SUFFIX,netflix.com,🚀 高速度
+- DOMAIN-SUFFIX,netflix.net,🚀 高速度
+- DOMAIN-SUFFIX,nflximg.net,🚀 高速度
+- DOMAIN-SUFFIX,nflxvideo.net,🚀 高速度
+- DOMAIN-SUFFIX,nflxext.com,🚀 高速度
+- DOMAIN-SUFFIX,nflxso.net,🚀 高速度
+- DOMAIN-SUFFIX,github.com,🚀 高速度
+- DOMAIN-SUFFIX,githubassets.com,🚀 高速度
+- DOMAIN-SUFFIX,githubusercontent.com,🚀 高速度
+- DOMAIN-SUFFIX,speedtest.net,🚀 高速度
+- DOMAIN-SUFFIX,fast.com,🚀 高速度
+- DOMAIN-SUFFIX,twitter.com,⚡ 低延迟
+- DOMAIN-SUFFIX,x.com,⚡ 低延迟
+- DOMAIN-SUFFIX,twimg.com,⚡ 低延迟
+- DOMAIN-SUFFIX,t.co,⚡ 低延迟
+- DOMAIN-SUFFIX,twvid.com,⚡ 低延迟
+- DOMAIN-SUFFIX,twttr.com,⚡ 低延迟
+- DOMAIN-SUFFIX,twttr.net,⚡ 低延迟
+- DOMAIN-SUFFIX,twtrdns.net,⚡ 低延迟
+- DOMAIN-SUFFIX,ads-twitter.com,⚡ 低延迟
+- DOMAIN-SUFFIX,cms-twdigitalassets.com,⚡ 低延迟
+- DOMAIN-SUFFIX,periscope.tv,⚡ 低延迟
+- DOMAIN-SUFFIX,pscp.tv,⚡ 低延迟
+- DOMAIN-KEYWORD,twitter,⚡ 低延迟
+- DOMAIN-SUFFIX,google.com,⚡ 低延迟
+- DOMAIN-SUFFIX,googleapis.com,⚡ 低延迟
+- DOMAIN-SUFFIX,gstatic.com,⚡ 低延迟
+- DOMAIN-SUFFIX,googleusercontent.com,⚡ 低延迟
+- DOMAIN-KEYWORD,google,⚡ 低延迟
 - GEOIP,CN,DIRECT,no-resolve
-- MATCH,🚀 节点选择
+- MATCH,⚡ 低延迟
