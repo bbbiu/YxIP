@@ -38,7 +38,7 @@ proxies:
     path: /?ed=2048
     headers:
       Host: edt2.814600117.ccwu.cc
-- name: 🇰🇷 韩国 | 183.101.136.209:443 | 21.0M
+- name: 🇰🇷 韩国 | 183.101.136.209:443 | 20.9M
   type: vless
   server: 183.101.136.209
   port: 443
@@ -321,7 +321,7 @@ proxy-groups:
   - 🇯🇵 日本 | 35.74.79.196:443 | 3.3M
   - 🇰🇷 韩国 | 123.111.169.70:443 | 22.2M
   - 🇯🇵 日本 | 13.115.139.162:443 | 3.3M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 21.0M
+  - 🇰🇷 韩国 | 183.101.136.209:443 | 20.9M
   - 🇺🇸 美国 | 67.230.184.129:443 | 16.7M
   - 🇺🇸 美国 | 179.253.227.142:443 | 9.6M
   - 🇬🇧 英国 | 129.151.70.70:443 | 10.8M
@@ -341,7 +341,7 @@ proxy-groups:
   - DIRECT
   - 🇯🇵 日本 | 176.34.37.7:443 | 30.7M
   - 🇰🇷 韩国 | 123.111.169.70:443 | 22.2M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 21.0M
+  - 🇰🇷 韩国 | 183.101.136.209:443 | 20.9M
   - 🇺🇸 美国 | 45.159.79.249:8443 | 16.9M
   - 🇺🇸 美国 | 67.230.184.129:443 | 16.7M
   - 🇨🇭 瑞士 | 89.127.196.31:443 | 15.5M
@@ -371,7 +371,7 @@ proxy-groups:
   - 🇯🇵 日本 | 35.74.79.196:443 | 3.3M
   - 🇰🇷 韩国 | 123.111.169.70:443 | 22.2M
   - 🇯🇵 日本 | 13.115.139.162:443 | 3.3M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 21.0M
+  - 🇰🇷 韩国 | 183.101.136.209:443 | 20.9M
   - 🇺🇸 美国 | 67.230.184.129:443 | 16.7M
   - 🇺🇸 美国 | 179.253.227.142:443 | 9.6M
   - 🇬🇧 英国 | 129.151.70.70:443 | 10.8M
@@ -380,7 +380,6 @@ proxy-groups:
   - 🇨🇭 瑞士 | 199.68.196.203:443 | 14.3M
   - 🇺🇸 美国 | 45.159.79.249:8443 | 16.9M
   - 🇨🇭 瑞士 | 89.127.196.31:443 | 15.5M
-  - 🇺🇸 美国 | 179.253.241.115:443 | 10.8M
   - 🇨🇭 瑞士 | 152.67.74.247:443 | 13.8M
   - 🇬🇧 英国 | 85.155.180.247:443 | 11.6M
   - 🇹🇼 台湾 | 140.115.53.51:443 | 11.3M
@@ -400,7 +399,7 @@ proxy-groups:
   - 🇯🇵 日本 | 35.74.79.196:443 | 3.3M
   - 🇰🇷 韩国 | 123.111.169.70:443 | 22.2M
   - 🇯🇵 日本 | 13.115.139.162:443 | 3.3M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 21.0M
+  - 🇰🇷 韩国 | 183.101.136.209:443 | 20.9M
   - 🇺🇸 美国 | 67.230.184.129:443 | 16.7M
   - 🇺🇸 美国 | 179.253.227.142:443 | 9.6M
   - 🇬🇧 英国 | 129.151.70.70:443 | 10.8M
@@ -424,7 +423,7 @@ proxy-groups:
   proxies:
   - 🇯🇵 日本 | 176.34.37.7:443 | 30.7M
   - 🇰🇷 韩国 | 123.111.169.70:443 | 22.2M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 21.0M
+  - 🇰🇷 韩国 | 183.101.136.209:443 | 20.9M
   - 🇺🇸 美国 | 67.230.184.129:443 | 16.7M
   - 🇨🇭 瑞士 | 89.127.196.31:443 | 15.5M
   - 🇺🇸 美国 | 45.159.79.249:8443 | 16.9M
@@ -443,7 +442,7 @@ proxy-groups:
   - 🇯🇵 日本 | 35.74.79.196:443 | 3.3M
   - 🇰🇷 韩国 | 123.111.169.70:443 | 22.2M
   - 🇯🇵 日本 | 13.115.139.162:443 | 3.3M
-  - 🇰🇷 韩国 | 183.101.136.209:443 | 21.0M
+  - 🇰🇷 韩国 | 183.101.136.209:443 | 20.9M
   - 🇺🇸 美国 | 67.230.184.129:443 | 16.7M
   - 🇺🇸 美国 | 179.253.227.142:443 | 9.6M
   - 🇬🇧 英国 | 129.151.70.70:443 | 10.8M
@@ -452,7 +451,6 @@ proxy-groups:
   - 🇨🇭 瑞士 | 199.68.196.203:443 | 14.3M
   - 🇺🇸 美国 | 45.159.79.249:8443 | 16.9M
   - 🇨🇭 瑞士 | 89.127.196.31:443 | 15.5M
-  - 🇺🇸 美国 | 179.253.241.115:443 | 10.8M
   - 🇨🇭 瑞士 | 152.67.74.247:443 | 13.8M
   - 🇬🇧 英国 | 85.155.180.247:443 | 11.6M
   - 🇹🇼 台湾 | 140.115.53.51:443 | 11.3M
@@ -490,36 +488,12 @@ rules:
 - IP-CIDR,149.154.172.0/22,⚡ 低延迟,no-resolve
 - IP-CIDR,185.76.151.0/24,⚡ 低延迟,no-resolve
 - AND,((NETWORK,UDP),(DST-PORT,443)),REJECT
-- DOMAIN-SUFFIX,openai.com,🤖 AI联通
-- DOMAIN-SUFFIX,chatgpt.com,🤖 AI联通
-- DOMAIN-SUFFIX,oaistatic.com,🤖 AI联通
-- DOMAIN-SUFFIX,oaiusercontent.com,🤖 AI联通
-- DOMAIN-KEYWORD,openai,🤖 AI联通
-- DOMAIN-SUFFIX,gemini.google.com,🤖 AI联通
-- DOMAIN-SUFFIX,bard.google.com,🤖 AI联通
-- DOMAIN-SUFFIX,generativelanguage.googleapis.com,🤖 AI联通
-- DOMAIN-SUFFIX,ai.google.dev,🤖 AI联通
-- DOMAIN-SUFFIX,aistudio.google.com,🤖 AI联通
-- DOMAIN-SUFFIX,makersuite.google.com,🤖 AI联通
-- DOMAIN-SUFFIX,deepmind.google,🤖 AI联通
-- DOMAIN-SUFFIX,deepmind.com,🤖 AI联通
-- DOMAIN-SUFFIX,generativeai.google,🤖 AI联通
-- DOMAIN-SUFFIX,alkalimakersuite-pa.clients6.google.com,🤖 AI联通
-- DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com,🤖 AI联通
-- DOMAIN-SUFFIX,waa-pa.clients6.google.com,🤖 AI联通
-- DOMAIN-SUFFIX,accounts.google.com,🤖 AI联通
-- DOMAIN-SUFFIX,apis.google.com,🤖 AI联通
-- DOMAIN-SUFFIX,myaccount.google.com,🤖 AI联通
-- DOMAIN-KEYWORD,gemini,🤖 AI联通
-- DOMAIN-KEYWORD,generativelanguage,🤖 AI联通
-- DOMAIN-SUFFIX,anthropic.com,🤖 AI联通
-- DOMAIN-SUFFIX,claude.ai,🤖 AI联通
-- DOMAIN-KEYWORD,anthropic,🤖 AI联通
 - DOMAIN-SUFFIX,youtube.com,🚀 高速度
 - DOMAIN-SUFFIX,googlevideo.com,🚀 高速度
 - DOMAIN-SUFFIX,ytimg.com,🚀 高速度
 - DOMAIN-SUFFIX,ggpht.com,🚀 高速度
 - DOMAIN-SUFFIX,youtu.be,🚀 高速度
+- DOMAIN-SUFFIX,youtube-nocookie.com,🚀 高速度
 - DOMAIN-SUFFIX,netflix.com,🚀 高速度
 - DOMAIN-SUFFIX,netflix.net,🚀 高速度
 - DOMAIN-SUFFIX,nflximg.net,🚀 高速度
@@ -531,6 +505,44 @@ rules:
 - DOMAIN-SUFFIX,githubusercontent.com,🚀 高速度
 - DOMAIN-SUFFIX,speedtest.net,🚀 高速度
 - DOMAIN-SUFFIX,fast.com,🚀 高速度
+- DOMAIN-SUFFIX,openai.com,🤖 AI联通
+- DOMAIN-SUFFIX,chatgpt.com,🤖 AI联通
+- DOMAIN-SUFFIX,oaistatic.com,🤖 AI联通
+- DOMAIN-SUFFIX,oaiusercontent.com,🤖 AI联通
+- DOMAIN-KEYWORD,openai,🤖 AI联通
+- DOMAIN-KEYWORD,chatgpt,🤖 AI联通
+- DOMAIN-SUFFIX,anthropic.com,🤖 AI联通
+- DOMAIN-SUFFIX,claude.ai,🤖 AI联通
+- DOMAIN-KEYWORD,anthropic,🤖 AI联通
+- DOMAIN-KEYWORD,claude,🤖 AI联通
+- DOMAIN-SUFFIX,gemini.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,bard.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,aistudio.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,makersuite.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,ai.google.dev,🤖 AI联通
+- DOMAIN-SUFFIX,deepmind.google,🤖 AI联通
+- DOMAIN-SUFFIX,deepmind.com,🤖 AI联通
+- DOMAIN-SUFFIX,generativeai.google,🤖 AI联通
+- DOMAIN-SUFFIX,clients6.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,clients1.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,clients2.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,clients3.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,clients4.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,clients5.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,accounts.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,myaccount.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,apis.google.com,🤖 AI联通
+- DOMAIN-SUFFIX,google.com,🤖 AI联通
+- DOMAIN-SUFFIX,googleapis.com,🤖 AI联通
+- DOMAIN-SUFFIX,gstatic.com,🤖 AI联通
+- DOMAIN-SUFFIX,googleusercontent.com,🤖 AI联通
+- DOMAIN-SUFFIX,googledrive.com,🤖 AI联通
+- DOMAIN-SUFFIX,googlecode.com,🤖 AI联通
+- DOMAIN-SUFFIX,google.dev,🤖 AI联通
+- DOMAIN-SUFFIX,1e100.net,🤖 AI联通
+- DOMAIN-KEYWORD,google,🤖 AI联通
+- DOMAIN-KEYWORD,gemini,🤖 AI联通
+- DOMAIN-KEYWORD,generativelanguage,🤖 AI联通
 - DOMAIN-SUFFIX,twitter.com,⚡ 低延迟
 - DOMAIN-SUFFIX,x.com,⚡ 低延迟
 - DOMAIN-SUFFIX,twimg.com,⚡ 低延迟
@@ -544,10 +556,5 @@ rules:
 - DOMAIN-SUFFIX,periscope.tv,⚡ 低延迟
 - DOMAIN-SUFFIX,pscp.tv,⚡ 低延迟
 - DOMAIN-KEYWORD,twitter,⚡ 低延迟
-- DOMAIN-SUFFIX,google.com,⚡ 低延迟
-- DOMAIN-SUFFIX,googleapis.com,⚡ 低延迟
-- DOMAIN-SUFFIX,gstatic.com,⚡ 低延迟
-- DOMAIN-SUFFIX,googleusercontent.com,⚡ 低延迟
-- DOMAIN-KEYWORD,google,⚡ 低延迟
 - GEOIP,CN,DIRECT,no-resolve
 - MATCH,⚡ 低延迟
